@@ -203,7 +203,7 @@ export async function getStaticProps(context) {
         <div className=""></div>  
         <div className=" justify-self-center "  style={{marginTop:5}}>
               <Link href={linkGrupoWhatsapp} >  
-                  <a className="button" target="_blank"> Entrar no grupo Agora
+                  <a className="button" > Entrar no grupo Agora
                       <span  style={{fontSize:18}}><FontAwesomeIcon icon={faWhatsapp} className="fontIconSize" /></span>
                   </a>
               </Link>
@@ -238,7 +238,7 @@ export async function getStaticProps(context) {
         <div className=""></div>  
         <div className=" justify-self-center sm:colspan-3"  style={{marginTop:5}}>
               <Link href={linkGrupoWhatsapp} >  
-                  <a className="button" target="_blank"> Entrar no grupo Agora
+                  <a className="button" > Entrar no grupo Agora
                       <span  style={{fontSize:18}}><FontAwesomeIcon icon={faWhatsapp} className="fontIconSize" /></span>
                   </a>
               </Link>
@@ -278,7 +278,7 @@ export async function getStaticProps(context) {
         <div className=""></div>  
         <div className=" justify-self-center sm:colspan-3"  style={{marginTop:3, marginBottom:150}}>
               <Link href={linkGrupoWhatsapp} >  
-                  <a className="button" target="_blank"> Entrar no grupo Agora
+                  <a className="button" > Entrar no grupo Agora
                       <span  style={{fontSize:18}}><FontAwesomeIcon icon={faWhatsapp} className="fontIconSize" /></span>
                   </a>
               </Link>
