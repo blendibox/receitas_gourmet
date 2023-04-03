@@ -16,6 +16,13 @@ const nextConfig = {
         //require('./scripts/getpages')
       }
   
+      config.module.rules.push(
+        {
+          test: /\.css$/,
+          use: 'raw-loader'
+        }
+      )
+
       return config
     },
   async rewrites() {
