@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -570,9 +570,33 @@ video {
   top: 0px !important;
 }
 
+.mx-10 {
+  margin-left: 2.5rem !important;
+  margin-right: 2.5rem !important;
+}
+
+.mx-8 {
+  margin-left: 2rem !important;
+  margin-right: 2rem !important;
+}
+
 .mx-auto {
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+.my-10 {
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem !important;
+}
+
+.my-8 {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.mt-8 {
+  margin-top: 2rem !important;
 }
 
 .flex {
@@ -583,12 +607,24 @@ video {
   display: grid !important;
 }
 
-.auto-cols-max {
-  grid-auto-columns: max-content !important;
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y)) !important;
+}
+
+.grid-flow-row {
+  grid-auto-flow: row !important;
 }
 
 .grid-flow-col {
   grid-auto-flow: column !important;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
 }
 
 .items-center {
@@ -603,14 +639,112 @@ video {
   justify-content: center !important;
 }
 
-.justify-items-stretch {
-  justify-items: stretch !important;
+.gap-x-5 {
+  -moz-column-gap: 1.25rem !important;
+       column-gap: 1.25rem !important;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem !important;
+       column-gap: 1.5rem !important;
+}
+
+.gap-y-4 {
+  row-gap: 1rem !important;
 }
 
 .justify-self-center {
   justify-self: center !important;
 }
 
+.px-10 {
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
+}
+
+.px-3 {
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+}
+
+.py-10 {
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
+}
+
+.py-8 {
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
+}
+
+.pb-8 {
+  padding-bottom: 2rem !important;
+}
+
+.pt-8 {
+  padding-top: 2rem !important;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.uppercase {
+  text-transform: uppercase !important;
+}
+
+.italic {
+  font-style: italic !important;
+}
+
+.underline {
+  text-decoration-line: underline !important;
+}
+
+.line-through {
+  text-decoration-line: line-through !important;
+}
+
+.transition {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
+  transition-duration: 150ms !important;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  }
+
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
 }

@@ -54,9 +54,6 @@ class MyDocument extends Document {
 
           <meta name="description" content="Aqui Você encontra dicas dos melhores cursos para você se preparar para o sucesso!"/>
 		  
-		  
-		  
-		  
 
 
        
@@ -65,7 +62,35 @@ class MyDocument extends Document {
         <body >
 
           <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PS2T3XB&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-
+          
+          <amp-animation layout="nodisplay" id="cardAdmin">
+            <script type="application/json"         
+             dangerouslySetInnerHTML=
+                 {{ __html: JSON.stringify( 
+                   {
+                      "selector": "#botaum",
+                      "duration": "infinite",
+                      "fill": "pulse",
+                      "keyframes": [
+                        {"transform": "translateX(0px)"},
+                        {"transform": "translateX(50%)"}
+                      ],
+                      "subtargets": [
+                        {
+                          "index": 1,
+                          "duration": "1s"
+                        },
+                        {
+                          "selector": "botaum",
+                          "direction": "reverse",
+                          "duration": "5s"
+                        }
+                      ]
+                    }
+                            
+              )}}
+            />
+          </amp-animation>
 
           <header  className="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4"  >
 

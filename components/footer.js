@@ -11,26 +11,40 @@ const Footer = () => {
     <footer >
       <span className="footer">     
 
+          <p>* As ofertas são válidas por tempo limitado. Caso o valor no Carrinho seja divergente do valor da oferta, valerá sempre o valor final no
+          seu Carrinho de Compras. </p>
+          <p> Ao clicar em Comprar, você será redirecionado para a Plataforma Segura da Hotmart, a qual
+          fará todo o Processamento de seu Pagamento e a Liberação de seu Login e Senha para Acessar as Aulas e Apostilas adquiridas por você, de acordo com o Curso Escolhido. </p>
+
+        <p>Sua Privacidade é nossa Prioridade! Seus Dados estarão sempre Seguros. Para mais detalhes leia a nossa</p>
           <a className="brand"   href="https://www.blendibox.com.br/pagina/politicas-de-privacidade.html">
-              <p>Politica de Privacidade</p>
+              <p> Politica de Privacidade</p>
           </a> 
+        <p> Se você tiver alguma dúvida, clique no Link de Whatsapp para falar conosco em Horário Comercial: de Segunda a Sextas das 09h00 ás 18h00. Respondemos todas as mensagens por ordem de chegada.</p>
 
           <a className="brand"  href='https://www.blendibox.com.br' >
-             <p>Blendibox® - CNPJ: 17.084.837/0001-69 © Todos os direitos reservados. 2023</p>
+             <p>Divulgação Autorizada: Blendibox® - CNPJ: 17.084.837/0001-69 © - 2023 - Todos os direitos reservados.</p>
           </a>   
               
          <div className="grid grid-flow-col ">
             <div className=""></div>
            <div className=""></div>
-           <div className=""><a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre o Curso de Receitas Gourmet pode me ajudar?"> 
-              <FontAwesomeIcon icon={faWhatsapp} className="fontWhats" />
-          </a> </div> 
-          <div className=""> <a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre o Curso de Receitas Gourmet pode me ajudar?"> 
-              <FontAwesomeIcon icon={faPinterest} className="fontWhats" />
-             </a>   
+           <div className="">
+              <p>
+                <a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre o Curso de Receitas Gourmet pode me ajudar?"> 
+                 <FontAwesomeIcon icon={faWhatsapp} className="fontWhats" />
+                </a>
+              </p> 
+            </div> 
+          <div className=""> 
+            <p>
+              <a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre o Curso de Receitas Gourmet pode me ajudar?"> 
+                <FontAwesomeIcon icon={faPinterest} className="fontWhats" />
+              </a>  
+            </p> 
           </div> 
-           <div className=""></div>
-            <div className=""></div>
+          <div className=""></div>
+          <div className=""></div>
         </div>
       
 

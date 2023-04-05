@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css'
 import xml from  "raw-loader!../../data/LomadeeDownload.xml"
-
+import Produto from '@/components/produto'
 export const config = { amp: true };
 
 var parser = require('xml2json-light');
@@ -9,6 +9,52 @@ var coupons = parser.xml2json(xml);
 
 
 export const getStaticProps = async ({params: {id} }) =>{
+
+
+
+
+      <Produto
+           nome  = 'Curso Bicos de Confeitar'
+           logoS  ='/assets/index/bolo4-1-1.png.webp'
+           logoW ='359'
+           logoH ='352'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_bicos_confeitar.webp'
+           videoS = '/assets/chef-isis-alvarez/curso_bicos_confeitar/curso_bicos_confeitar.mp4'
+           description = 'Neste curso, você aprenderá do absoluto zero tudo sobre os Bicos de Confeitar! Voce vai conhecer bicos mais utilizados, alé de várias Técnicas para tornar cada um deles mais versátil, também aprenderá a produzir lindas flores para decorar bolos e cupcakes.
+            . O Curso também  te ensina as coberturas para bicos mais usadas aqui no Brasil e no Exterior: Chantininho, Glossy Buttercream e Shiny Buttercream.'
+           preco = '297,00'
+           desconto ='97,90'
+           parcelas = '10x De R$ 11,08'
+           link_checkout=''
+           link_pagina_vendas = ''
+
+      />
+
+
+
+      <Produto
+           nome  = 'Brigadeiros Gourmet'
+           logoS  ='/assets/index/brigadeiro_gourmet.webp'
+           logoW ='327'
+           logoH ='352'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_brigadeiros.webp'
+           videoS = '/assets/chef-isis-alvarez/curso_brigadeiros_sem_segredos/curso_brigadeiros_sem_segredos.mp4'
+           description = 'Aqui você vai aprender o passo a passo para produzir e vender os brigadeiros mais pedidos do momento! São mais de 60 Vídeo Aulas super didáticas, perfeitas para os iniciantes!
+
+E para você dar um passo além na confeitaria, se inscrevendo agora terá Acesso a 6 Bônus Incríveis: Aula de Palha Italiana, Copo da Felicidade Com Brigadeiro, Bolo no Pote Com Brigadeiro, Coxinha de Morango, Certificado e muito mais…
+
+Faça sua inscrição agora e entre em uma das áreas mais lucrativas da confeitaria!'
+           preco = '697,00'
+           desconto ='127,00'
+           parcelas = '12x De R$ 12,37'
+           link_checkout=''
+           link_pagina_vendas = ''
+
+      />
+
+
 
  // const CuponsList = await fetch(
  //  "http://sandbox-api.lomadee.com/v2/1666449730458ebdc157f/coupon/_all?sourceId=37683570"
