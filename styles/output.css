@@ -595,6 +595,10 @@ video {
   margin-bottom: 2rem !important;
 }
 
+.mb-8 {
+  margin-bottom: 2rem !important;
+}
+
 .mt-8 {
   margin-top: 2rem !important;
 }
@@ -605,6 +609,10 @@ video {
 
 .grid {
   display: grid !important;
+}
+
+.hidden {
+  display: none !important;
 }
 
 .transform {

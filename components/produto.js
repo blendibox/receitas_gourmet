@@ -21,16 +21,16 @@ render() {
   return (
 
 
-     <div className="grid grid-flow-col  flex gap-y-15 gap-x-5 ">      
+     <div className="grid grid-flow-col  flex gap-y-15 gap-x-5 mb-8 ">      
        <div>
 
-        <div className=" grid grid-flow-col items-center topo-card">
+        <div className=" grid grid-flow-col items-center topo-card " >
           <div> {this.props.nome}
           </div>
-          <div className="">
+          <div className={this.props.logo_none}>
             <amp-img
               alt="Recheios a alma da Confeitaria 3.0"
-              className=" "
+              
               width={this.props.logoW}
               height={this.props.logoH}
               layout="responsive"
@@ -38,16 +38,18 @@ render() {
             </amp-img>
           </div>
         </div>  
-        <div className="grid grid-flow-col items-center corpo-card">
+        <div className="grid grid-flow-col items-center sm:items-left corpo-card">
         <div>
              <span ><FontAwesomeIcon icon={faFile} className="fontIconCard" /></span>
           </div>
-          <div className="items-center my-8 "> Com Certificado
+          <div className="items-center my-8 justify-self-left "> Com Certificado
           </div>
+          <div></div>
+          <div></div>
           <div>
              <span ><FontAwesomeIcon icon={faGift} className="fontIconCard" /></span>
           </div>
-           <div>{this.props.bonus}
+           <div className="justify-self-center">{this.props.bonus}
           </div>
         </div>  
         <div className="grid grid-flow-col corpo-card flex items-center">         

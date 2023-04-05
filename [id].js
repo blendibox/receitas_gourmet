@@ -12,6 +12,44 @@ export const getStaticProps = async ({params: {id} }) =>{
 
 
 
+     <Produto
+           nome  = 'Escola de Bolos Caseiros'
+           logoS  ='/assets/index/escola_bolos_caseiros.webp'
+           logoW ='961'
+           logoH ='451'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_bolo_caseiro.webp'
+           videoS = '/assets/chef-isis-alvarez/escola_bolos_caseiros/escola_de_bolos_caseiros.mp4'
+           description = 'Um Curso Completo com mais de trinta Aulas com muitas variedades em receitas simples e práticas para você já começar a vender na mesma semana, acompanha aulas extras em vídeos ensinando o passo a passo dos Bolos Caseiros que são campeões de vendas no mercado.
+
+Aqui você aprenderá as massas, coberturas e alguns segredinhos para criar seu menu exclusivo e vender durante o ano todo!'
+           preco = '697,00'
+           desconto ='127,90'
+           parcelas = '12x De R$ 12,37'
+           link_checkout='#'
+           link_pagina_vendas = '#'
+
+      />
+
+
+         <Produto
+           nome  = 'Apostila Bolo No Pote'
+           logoS  ='/assets/index/recorte-pote-ovomaltinemorango1-1.png.webp'
+           logoW ='800'
+           logoH ='669'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_bolo_pote.webp'
+           videoS = '/assets/chef-isis-alvarez/bolo_no_pote/bolo_no_pote.mp4'
+           description = 'Um Pacote de Apostilas com as melhores receitas e combinações praticas para você já começar a sair vendendo na mesma semana, além de 35 aulas extras em vídeos ensinando o passo a passo da produção e montagem dos potes.
+
+Aqui você aprenderá as massas, recheios e alguns segredinhos para criar seu menu exclusivo e vender durante o ano todo!'
+           preco = '397,00'
+           desconto ='67,00'
+           parcelas = '8x De R$ 9,34'
+           link_checkout='#'
+           link_pagina_vendas = '#'
+
+      />
 
       <Produto
            nome  = 'Curso Bicos de Confeitar'
