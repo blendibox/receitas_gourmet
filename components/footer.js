@@ -27,7 +27,7 @@ const Footer = () => {
           </a>   
               
          <div className="grid grid-flow-col ">
-            <div className=""></div>
+           <div className=""></div>
            <div className=""></div>
            <div className="">
               <p>
@@ -38,7 +38,7 @@ const Footer = () => {
             </div> 
           <div className=""> 
             <p>
-              <a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre o Curso de Receitas Gourmet pode me ajudar?"> 
+              <a className="brand"  href="https://wa.me/5519971489380?text=Olá, quero tirar uma dúvida sobre um dos Cursos de Confeitaria Gourmet."> 
                 <FontAwesomeIcon icon={faPinterest} className="fontWhats" />
               </a>  
             </p> 

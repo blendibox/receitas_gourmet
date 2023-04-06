@@ -15,20 +15,16 @@ import Footer from '@/components/footer'
 import Link from 'next/link'
 import Countdown from "@/components/Countdown";
 
-const linkGrupoWhatsapp = 'https://chat.whatsapp.com/HgzahPnX4X39JImzfJljhM';
 
 export const config = { amp: true };
 
 
 const background = '/assets/index/background_index.png';
 const background2 = '/assets/index/background_2.webp';
-const image1 = '/assets/chef-isis-alvarez/recheios/Curso-recheios-titulo.png';
-const image2 = '/assets/chef-isis-alvarez/recheios/Isis04-878x1024.png';
-const image3 = '/assets/chef-isis-alvarez/recheios/Isis03-1177x1536.png';
-const nomeCurso = ' Curso da Chef Isis Alvarez - Recheios, a Alma da Confeitaria';
+const image1 = '/assets/index/video_pascoa_isis.png';
+const nomeCurso = ' Cursos da Chef Isis Alvarez - Recheios, bolos, ovos de páscoa';
 const brand ="Blendibox [Representante Autorizado]";
-const description = 'Entre no Grupo do Whatsapp para assistir as Aulas Gratuitas da Chef Isis Alvarez. Durante as aulas, ela ensinará como fazer Recheios Gourmet para diversas finalidades: bolos, ovos de páscoa de colher, copo da felicidade, e muito mais!';
-
+const description = 'Cursos Online de Confeitaria Gourmet, escolha o seu Curso favorito e começe hoje mesmo a ser uma Confeiteira de Sucesso';
 
 const depoimento1 = '/assets/index/depoimento_1.webp';
 const depoimento2 = '/assets/index/depoimento_2.webp';
@@ -117,8 +113,7 @@ export async function getStaticProps(context) {
 
    return {
     props: {
-       faWhatsapp:faWhatsapp,
-       linkGrupoWhatsapp:linkGrupoWhatsapp
+       faWhatsapp:faWhatsapp
     }
    }
 }
@@ -126,7 +121,7 @@ export async function getStaticProps(context) {
 
 
 
- function Index({faWhatsapp, linkGrupoWhatsapp}) {
+ function Index({faWhatsapp}) {
 
   return(
 
@@ -160,7 +155,7 @@ export async function getStaticProps(context) {
                     "name": "Blendibox",
                     "logo": {
                       "@type": "ImageObject",
-                      "url": "https://comprar.blendibox.com.br/favicon.ico",
+                      "url": "https://cursoconfeitaria.blendibox.com.br/favicon.ico",
                       "width": 40,
                       "height": 40
                     }
@@ -181,16 +176,18 @@ export async function getStaticProps(context) {
 
 
         <meta  name="robots" content="follow, index" />
-        <meta  name="description" content={nomeCurso} />
+        <meta  name="description" content={description} />
         <meta  property="og:site_name" content={nomeCurso} />
-        <meta  property="og:description" content={nomeCurso} />
+        <meta  property="og:description" content={description} />
         <meta  property="og:title" content={nomeCurso} />
         <meta  property="og:image" content={image1} />
         <meta  name="twitter:card" content="summary_large_image" />
         <meta  name="twitter:site" content="@blendibox.br" />
         <meta  name="twitter:title" content={nomeCurso} />
-        <meta  name="twitter:description" content={nomeCurso} />
+        <meta  name="twitter:description" content={description} />
         <meta  name="twitter:image" content={image2} />
+
+
         <meta name="keywords" content={palavrasChave}/>
         <meta
           name="description"
@@ -240,8 +237,7 @@ export async function getStaticProps(context) {
            videoI = '/assets/index/video_pascoa_isis.png'
            videoS = '/assets/chef-isis-alvarez/curso_pascoa/video_venda_pascoa_2023.mp4'
            description = 'Você fica encantada quando está no instagram e ve passar aquelas fotos de ovos de páscoa lindos? E fica imaginando o quão complexo é chegar a esse nível de perfeição?
-           você vai aprender Técnicas de temperagem em passo a passo em vídeo aula, + De 20 modelos de Ovos Incríveis e a tão pedida Colomba Pascal 
-  '
+           você vai aprender Técnicas de temperagem em passo a passo em vídeo aula, + De 20 modelos de Ovos Incríveis e a tão pedida Colomba Pascal'
            preco = '697,00'
            desconto ='127,00'
            parcelas = '12x De R$ 12,37'
@@ -262,7 +258,7 @@ export async function getStaticProps(context) {
            bonus = 'Bônus incluso'
            videoI = '/assets/index/video_recheio.jpg.webp'
            videoS = '/assets/index/vendas_recheios.mp4'
-           description = 'Um Maravilhoso Kit de Apostilas, somando mais de 50 recheios! além de muitos Bônus e Vídeo Aulas! Você será diferente de todas as Confeiteiras de sua cidade, graças a um mix incrível de receitas maravilhosas e mais pedidas pelos Clientes. Testadas e Aprovadas pela Chefe Isis Alvarez.'
+           description = 'Um Maravilhoso Kit de Apostilas, somando mais de 50 recheios! além de muitos Bônus e Vídeo Aulas! Você será diferente de todas as Confeiteiras de sua cidade, graças a um mix incrível de receitas maravilhosas e mais pedidas pelos Clientes. Testadas e Aprovadas pela Chef Isis Alvarez.'
            preco = '197,00'
            desconto ='67,90'
            parcelas = '8x De R$ 9,34'
@@ -401,9 +397,7 @@ Vários Bônus especiais em Apostilas em PDF que você pode imprimir sempre que 
         </div>    
       </div>
 
-    
-
-
+  
     </div>
 
     <div className="background2">
