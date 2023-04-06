@@ -38,9 +38,8 @@ class MyDocument extends Document {
 		      <link rel="canonical" href="https://cursoconfeitaria.blendibox.com.br"/>
 
           <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"/>
-          <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"/>      
+          <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"/>
 
-          <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"/>
          
           <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
           
@@ -49,45 +48,17 @@ class MyDocument extends Document {
           <meta httpEquiv='content-language' content='pt-br'/> 
 
           <meta name="description" content="Aqui Você encontra dicas dos melhores cursos para você se preparar para o sucesso!"/>
-		  
-
+		
 
        
         </Head>
     	
         <body >
 
+        <amp-pixel src="https://www.facebook.com/tr?id=926977218348572&ev=PageView&noscript=1" layout="nodisplay"/>
 
 
-
-          <amp-animation layout="nodisplay" id="cardAdmin">
-            <script type="application/json"         
-             dangerouslySetInnerHTML=
-                 {{ __html: JSON.stringify( 
-                   {
-                      "selector": "#botaum",
-                      "duration": "infinite",
-                      "fill": "pulse",
-                      "keyframes": [
-                        {"transform": "translateX(0px)"},
-                        {"transform": "translateX(50%)"}
-                      ],
-                      "subtargets": [
-                        {
-                          "index": 1,
-                          "duration": "1s"
-                        },
-                        {
-                          "selector": "botaum",
-                          "direction": "reverse",
-                          "duration": "5s"
-                        }
-                      ]
-                    }
-                            
-              )}}
-            />
-          </amp-animation>
+            
 
           <header  className="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4"  >
 
