@@ -185,7 +185,7 @@ export async function getStaticProps(context) {
         <meta  name="twitter:site" content="@blendibox.br" />
         <meta  name="twitter:title" content={nomeCurso} />
         <meta  name="twitter:description" content={description} />
-        <meta  name="twitter:image" content={image2} />
+        <meta  name="twitter:image" content={image1} />
 
 
         <meta name="keywords" content={palavrasChave}/>
