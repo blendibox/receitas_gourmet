@@ -2,8 +2,6 @@ import Document, { Html, Head, Main, NextScript,Link } from 'next/document';
 import tailwindcss from '!raw-loader!../styles/output.css';
 
 
-
-
 class MyDocument extends Document {
 
 
@@ -48,17 +46,30 @@ class MyDocument extends Document {
           <meta httpEquiv='content-language' content='pt-br'/> 
 
           <meta name="description" content="Aqui Você encontra dicas dos melhores cursos para você se preparar para o sucesso!"/>
-		
+	
 
-       
+
+          <script dangerouslySetInnerHTML={{ __html: `!function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '926977218348572');
+            fbq('track', 'PageView');` }}
+          />
+          <noscript dangerouslySetInnerHTML={{ __html: `<img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=926977218348572&ev=PageView&noscript=1" />` }}
+          />
+
         </Head>
     	
         <body >
+      
+          
 
-        <amp-pixel src="https://www.facebook.com/tr?id=926977218348572&ev=PageView&noscript=1" layout="nodisplay"/>
-
-
-            
 
           <header  className="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4"  >
 
