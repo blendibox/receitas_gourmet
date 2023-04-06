@@ -21,7 +21,7 @@ export const config = { amp: true };
 
 const background = '/assets/index/background_index.png';
 const background2 = '/assets/index/background_2.webp';
-const image1 = '/assets/index/video_pascoa_isis.png';
+const image1 = '/assets/index/video_pascoa_isis.webp';
 const nomeCurso = ' Cursos da Chef Isis Alvarez - Recheios, bolos, ovos de páscoa';
 const brand ="Blendibox [Representante Autorizado]";
 const description = 'Cursos Online de Confeitaria Gourmet, escolha o seu Curso favorito e começe hoje mesmo a ser uma Confeiteira de Sucesso';
@@ -187,7 +187,6 @@ export async function getStaticProps(context) {
         <meta  name="twitter:description" content={description} />
         <meta  name="twitter:image" content={image1} />
 
-
         <meta name="keywords" content={palavrasChave}/>
         <meta
           name="description"
@@ -234,7 +233,7 @@ export async function getStaticProps(context) {
            logoW ='961'
            logoH ='451'
            bonus = 'Bônus inclusos'
-           videoI = '/assets/index/video_pascoa_isis.png'
+           videoI = '/assets/index/video_pascoa_isis.webp'
            videoS = '/assets/chef-isis-alvarez/curso_pascoa/video_venda_pascoa_2023.mp4'
            description = 'Você fica encantada quando está no instagram e ve passar aquelas fotos de ovos de páscoa lindos? E fica imaginando o quão complexo é chegar a esse nível de perfeição?
            você vai aprender Técnicas de temperagem em passo a passo em vídeo aula, + De 20 modelos de Ovos Incríveis e a tão pedida Colomba Pascal'
