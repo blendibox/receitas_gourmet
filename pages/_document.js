@@ -34,17 +34,13 @@ class MyDocument extends Document {
 
           <link rel="apple-touch-icon" href="/favicon.ico" />
 		  
-          <meta name="theme-color" content="#e7e9eb"/>
-		  
-          <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js" />
-          <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"/>
-          <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"/>
-          <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"/>
+          <meta name="theme-color" content="#650242"/>
+		      <link rel="canonical" href="https://cursoconfeitaria.blendibox.com.br"/>
+
           <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"/>
           <script async custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"/>      
-          <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"/>
+
           <script async custom-element="amp-animation" src="https://cdn.ampproject.org/v0/amp-animation-0.1.js"/>
-          <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"/>
          
           <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
           
@@ -61,8 +57,9 @@ class MyDocument extends Document {
     	
         <body >
 
-          <amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-PS2T3XB&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
-          
+
+
+
           <amp-animation layout="nodisplay" id="cardAdmin">
             <script type="application/json"         
              dangerouslySetInnerHTML=
@@ -95,7 +92,9 @@ class MyDocument extends Document {
           <header  className="ampstart-headerbar fixed flex justify-start items-center top-0 left-0 right-0 pl2 pr4"  >
 
 
-          </header>        
+          </header>       
+
+
 
           <Main />
           <NextScript />

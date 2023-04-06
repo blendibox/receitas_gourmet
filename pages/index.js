@@ -19,10 +19,10 @@ import Countdown from "@/components/Countdown";
 export const config = { amp: true };
 
 
-const background = '/assets/index/background_index.png';
+const background = '/assets/index/background_index.webp';
 const background2 = '/assets/index/background_2.webp';
 const image1 = '/assets/index/video_pascoa_isis.webp';
-const nomeCurso = ' Cursos da Chef Isis Alvarez - Recheios, bolos, ovos de páscoa';
+const nomeCurso = ' Cursos de Confeitaria da Chef Isis Alvarez - Recheios, Bolos, Ovos de Páscoa';
 const brand ="Blendibox [Representante Autorizado]";
 const description = 'Cursos Online de Confeitaria Gourmet, escolha o seu Curso favorito e começe hoje mesmo a ser uma Confeiteira de Sucesso';
 
@@ -202,9 +202,9 @@ export async function getStaticProps(context) {
         <div className=""></div>  
         <div className="heading-title justify-self-center "  style={{marginTop:50}}>
           <h1>Tenha Acesso Aos <span className="span">Melhores Cursos De Confeitaria</span></h1>
-          <h3>Aprenda sem precisar <span className="span">sair de casa</span>, sem gastar com deslocamento.</h3>
-          <h3> Aulas detalhadas, que você poderá <span className="span">ver e rever sempre que quiser!</span></h3>
-          <h3 style={{textDecoration: 'underline'}}>Cursos para iniciantes e profissionais que querem aprimorar seus conhecimentos</h3>
+          <h1>Aprenda sem precisar <span className="span">sair de casa</span>, sem gastar com deslocamento.</h1>
+          <h1> Aulas detalhadas, que você poderá <span className="span">ver e rever sempre que quiser!</span></h1>
+          <h1 style={{textDecoration: 'underline'}}>Cursos para iniciantes e profissionais que querem aprimorar seus conhecimentos</h1>
         </div>
         <div className=""></div>
       
@@ -227,6 +227,7 @@ export async function getStaticProps(context) {
        
     
      <Produto
+           id='1'
            nome  = 'Ovos de Páscoa 2023'
            logo_none = 'hidden'
            logoS  ='/assets/index/logo_pascoa_2.png'
@@ -240,7 +241,7 @@ export async function getStaticProps(context) {
            preco = '697,00'
            desconto ='127,00'
            parcelas = '12x De R$ 12,37'
-          link_checkout='https://go.hotmart.com/I81320933I?ap=8ede'
+           link_checkout='https://go.hotmart.com/I81320933I?ap=8ede'
            link_pagina_vendas = 'https://go.hotmart.com/I81320933I'
 
       />
@@ -250,8 +251,9 @@ export async function getStaticProps(context) {
 
 
       <Produto
+           id='2'
            nome  = 'Curso de Recheios 3.0'
-           logoS  ='/assets/index/Curso-recheios-titulo.png.webp'
+           logoS  ='/assets/index/Curso-recheios-titulo.png_200x94.webp'
            logoW ='961'
            logoH ='451'
            bonus = 'Bônus incluso'
@@ -268,6 +270,7 @@ export async function getStaticProps(context) {
       />
 
      <Produto
+           id='3'
            nome  = 'Curso Copos e Taças'
            logoS  ='/assets/index/copos_tacas.webp'
            logoW ='1024'
@@ -289,6 +292,7 @@ Aqui você aprenderá as bases, as montagens e alguns segredinhos para criar seu
 
    
       <Produto
+           id='4'
            nome  = 'Bolos De Festas + Ganaches'
            logoS  ='/assets/index/bolo_festas.webp'
            logoW ='716'
@@ -309,6 +313,7 @@ Aqui você aprenderá as bases, as montagens e alguns segredinhos para criar seu
 
 
          <Produto
+           id='5'
            nome  = 'Curso Geladinhos Gourmet'
            logoS  ='/assets/index/DSC_6651-PhotoRoom-1-1024x683.png.webp'
            logoW ='768'
@@ -499,7 +504,7 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
          </amp-img>
       </div>
       <div className="grid grid-flow-col  colspan-2 mx-8 my-8 justify-self-center ">
-          <p style={{color:'#222222'}}>
+          <p style={{color:'#111111'}}>
             <span className="span grid grid-flow-row">AVISO LEGAL </span>
 
           Estes produtos não garantem a obtenção de resultados.
@@ -517,6 +522,10 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
 
 
     <style jsx global>{`
+
+        .h4{
+          font-size:1.3em;
+        }
 
         .toggle-title{
           color:#000000;
@@ -548,6 +557,10 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
 
         .section-depoimento{        
           background-color: #eeeeee;
+        }
+
+         .section-depoimento span{
+          color:#671A75;
         }
 
         #botaum {
@@ -664,6 +677,8 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
         .span{
           color:#ff0073;
         }
+
+
         h2{
           color: #ffffff;
           font-weight: 900;

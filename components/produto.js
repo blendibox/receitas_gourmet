@@ -77,7 +77,7 @@ render() {
         </div>
         <div className="grid grid-flow-col corpo-card flex items-center"> 
           <div >
-            <h4><b><i> <span className="span">R$ {this.props.desconto} </span>á Vista </i></b></h4>
+            <div className="h4"><b><i> <span className="span">R$ {this.props.desconto} </span>á Vista </i></b></div>
           </div>
         </div>
          <div className="grid grid-flow-col corpo-card flex items-center"> 
@@ -87,7 +87,7 @@ render() {
          <div className="grid grid-flow-col corpo-card flex items-center"> 
           <div>
           <Link href={this.props.link_checkout}>
-            <a className=" pulse-button flex justify-center transition" id="botaum"style={{ marginTop:10}}>
+            <a className=" pulse-button flex justify-center transition botaum"  style={{ marginTop:10}}>
                 <span  className=""><span> Compre Aqui  </span></span>
             </a>
             </Link>
@@ -101,7 +101,7 @@ render() {
               width={1024}
               height={87}
               layout="responsive"
-              src="/assets/index/PAGAMENTO-2-1024x87-1.webp"   >
+              src= { (this.props.id ==1)?"/assets/index/PAGAMENTO-2-1024x87-1.webp":"/assets/index/PAGAMENTO-2-357x30-1.webp"   }   >
             </amp-img>
           </div>
         </div>  
@@ -109,7 +109,7 @@ render() {
          <div className="grid grid-flow-col corpo-card flex items-center  bottom-card  pb-8"> 
           <div>
           <Link href={this.props.link_pagina_vendas}>
-            <a className="flex justify-center transition" id="botaum"style={{ marginTop:10}}>
+            <a className="flex justify-center transition"  style={{ marginTop:10}}>
                 <span  className="link-mais"><span> Quero Saber Mais...  </span></span>
             </a>
             </Link>
