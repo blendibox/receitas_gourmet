@@ -223,13 +223,33 @@ export async function getStaticProps(context) {
       </div>
 
 
-   <div className=" grid grid-cols-1 mb-8   gap-x-6 gap-y-4 ">
+   <div className=" grid sm:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8   gap-x-6 gap-y-4 ">
        
-    
      <Produto
            id='1'
-           nome  = 'Ovos de Páscoa 2023'
            logo_none = 'hidden'
+           nome  = 'Bolos De Festas + Ganaches'
+           logoS  ='/assets/index/bolo_festas.webp'
+           logoW ='716'
+           logoH ='427'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_bolo_ganache.webp'
+           videoS = '/assets/chef-isis-alvarez/bolo_andar_ganache/chamada_semana_gratuita_bolos_de_festa.mp4'
+           description = 'O Curso mais Desejado por ser o mais completo em Bolos de Festa, e agora com a sua versão “Especial em Chocolate”. Entenda todos os conceitos para se tornar uma Confeiteira de respeito produzindo Bolos Altamente Lucrativos. Aprenda de fato a fazer lindas decorações em Ganaches!'
+           preco = '697,00'
+           desconto ='297,90'
+           parcelas = '12x De R$ 29,70'
+           link_checkout='https://go.hotmart.com/U81320832O?ap=8529'
+           link_pagina_vendas = 'https://go.hotmart.com/U81320832O'
+
+           
+
+      />
+
+      <Produto
+           id='1'
+           logo_none = 'hidden'
+           nome  = 'Ovos de Páscoa 2023'
            logoS  ='/assets/index/logo_pascoa_2.png'
            logoW ='961'
            logoH ='451'
@@ -245,10 +265,11 @@ export async function getStaticProps(context) {
            link_pagina_vendas = 'https://go.hotmart.com/I81320933I'
 
       />
-
+     
     </div>
-    <div className=" grid sm:grid-cols-2 xl:grid-cols-4 lg:grid-cols-4 md:grid-cols-2   gap-x-6 gap-y-4 ">
+    <div className=" grid sm:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2   gap-x-6 gap-y-4 ">
 
+      
 
       <Produto
            id='2'
@@ -292,22 +313,24 @@ Aqui você aprenderá as bases, as montagens e alguns segredinhos para criar seu
 
    
       <Produto
-           id='4'
-           nome  = 'Bolos De Festas + Ganaches'
-           logoS  ='/assets/index/bolo_festas.webp'
-           logoW ='716'
-           logoH ='427'
+           id = '6'
+           nome  = 'Brigadeiros Gourmet'
+           logoS  ='/assets/index/brigadeiros_gourmet_logo.png'
+           logoW ='150'
+           logoH ='100'
            bonus = 'Bônus inclusos'
-           videoI = '/assets/index/video_bolo_ganache.webp'
-           videoS = '/assets/chef-isis-alvarez/bolo_andar_ganache/chamada_semana_gratuita_bolos_de_festa.mp4'
-           description = 'O Curso mais Desejado por ser o mais completo em Bolos de Festa, e agora com a sua versão “Especial em Chocolate”. Entenda todos os conceitos para se tornar uma Confeiteira de respeito produzindo Bolos Altamente Lucrativos. Aprenda de fato a fazer lindas decorações em Ganaches!'
-           preco = '697,00'
-           desconto ='297,90'
-           parcelas = '12x De R$ 29,70'
-           link_checkout='https://go.hotmart.com/U81320832O?ap=8529'
-           link_pagina_vendas = 'https://go.hotmart.com/U81320832O'
+           videoI = '/assets/index/video_brigadeiros.webp'
+           videoS = '/assets/chef-isis-alvarez/curso_brigadeiros_sem_segredos/venda_brigadeiro_sem_segredos.mp4'
+           description = 'Aqui você vai aprender o passo a passo para produzir e vender os brigadeiros mais pedidos do momento! São mais de 60 Vídeo Aulas super didáticas, perfeitas para os iniciantes!
 
-           
+E para você dar um passo além na confeitaria, se inscrevendo agora terá Acesso a 6 Bônus Incríveis: Aula de Palha Italiana, Copo da Felicidade Com Brigadeiro, Bolo no Pote Com Brigadeiro, Coxinha de Morango, Certificado e muito mais…
+
+Faça sua inscrição agora e entre em uma das áreas mais lucrativas da confeitaria!'
+           preco = '697,00'
+           desconto ='127,00'
+           parcelas = '12x De R$ 12,37'
+           link_checkout='https://go.hotmart.com/Q81618271I?ap=df8d'
+           link_pagina_vendas = 'https://go.hotmart.com/Q81618271I'
 
       />
 
@@ -315,9 +338,9 @@ Aqui você aprenderá as bases, as montagens e alguns segredinhos para criar seu
          <Produto
            id='5'
            nome  = 'Curso Geladinhos Gourmet'
-           logoS  ='/assets/index/DSC_6651-PhotoRoom-1-1024x683.png.webp'
-           logoW ='768'
-           logoH ='432'
+           logoS  ='/assets/index/geladinho_gourmet_logo.png'
+           logoW ='150'
+           logoH ='100'
            bonus = 'Bônus incluso'
            videoI = '/assets/index/video_geladinho_gourmet.webp'
            videoS = '/assets/chef-isis-alvarez/geladinhos_gourmet/geladinhos_gourmet.mp4'
@@ -331,6 +354,28 @@ Vários Bônus especiais em Apostilas em PDF que você pode imprimir sempre que 
            parcelas = '9x De R$ 9,66'
            link_checkout='https://go.hotmart.com/H81320987X?ap=6c25'
            link_pagina_vendas = 'https://go.hotmart.com/H81320987X'
+
+      />
+
+
+     
+
+      <Produto
+           id='7'
+           nome  = 'Curso Bicos de Confeitar'
+           logoS  ='/assets/index/bicos_logo.png'
+           logoW ='150'
+           logoH ='100'
+           bonus = 'Bônus inclusos'
+           videoI = '/assets/index/video_bicos_confeitar.webp'
+           videoS = '/assets/chef-isis-alvarez/curso_bicos_confeitar/curso_bicos_confeitar.mp4'
+           description = 'Neste curso, você aprenderá do absoluto zero tudo sobre os Bicos de Confeitar! Voce vai conhecer bicos mais utilizados, alé de várias Técnicas para tornar cada um deles mais versátil, também aprenderá a produzir lindas flores para decorar bolos e cupcakes.
+            . O Curso também  te ensina as coberturas para bicos mais usadas aqui no Brasil e no Exterior: Chantininho, Glossy Buttercream e Shiny Buttercream.'
+           preco = '297,00'
+           desconto ='97,90'
+           parcelas = '10x De R$ 11,08'
+           link_checkout='https://go.hotmart.com/L81618291W?ap=addb'
+           link_pagina_vendas = 'https://go.hotmart.com/L81618291W'
 
       />
 
@@ -625,7 +670,7 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
         } 
 
          .video-container {
-            margin: 15px 15px 15px 15px;           
+            margin: 10% 10% 5% 10%;           
 
           }
 

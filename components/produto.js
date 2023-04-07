@@ -52,7 +52,11 @@ render() {
            <div className="justify-self-center">{this.props.bonus}
           </div>
         </div>  
-        <div className="grid grid-flow-col corpo-card flex items-center">         
+        <div className="grid grid-flow-col corpo-card " >
+             ASSISTA O VÍDEO   
+        </div>
+        <div className="grid grid-flow-col corpo-card flex items-center">    
+
           <div className="video-container"  style={{marginTop:0}}>
            <Video className="video-border" image={this.props.videoI} 
              src={this.props.videoS} 
@@ -85,7 +89,7 @@ render() {
             <small>Ou {this.props.parcelas}*  no cartão </small></div>
         </div> 
          <div className="grid grid-flow-col corpo-card flex items-center"> 
-          <div>
+          <div style={{height:66}}>
           <Link href={this.props.link_checkout}>
             <a className=" pulse-button flex justify-center transition botaum"  style={{ marginTop:10}}>
                 <span  className=""><span> Compre Aqui  </span></span>
