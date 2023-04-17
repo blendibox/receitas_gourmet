@@ -234,7 +234,7 @@ export async function getStaticProps(context) {
           <Video  image={videoImage} 
           src={videoMp4} 
           preload="auto"  loop="loop" muted="muted" layout="responsive"  
-          rotate-to-fullscreen="rotate-to-fullscreen" controls="controls" autoPlay 
+          rotate-to-fullscreen="rotate-to-fullscreen" controls="controls" 
           />
         </div>       
        

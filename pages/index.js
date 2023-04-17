@@ -223,7 +223,7 @@ export async function getStaticProps(context) {
       </div>
 
 
-   <div className=" grid sm:grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8   gap-x-6 gap-y-4 ">
+   <div className=" grid grid-cols-1 mb-8   gap-x-6 gap-y-4 ">
        
      <Produto
            id='1'
@@ -246,25 +246,7 @@ export async function getStaticProps(context) {
 
       />
 
-      <Produto
-           id='1'
-           logo_none = 'hidden'
-           nome  = 'Ovos de Páscoa 2023'
-           logoS  ='/assets/index/logo_pascoa_2.png'
-           logoW ='961'
-           logoH ='451'
-           bonus = 'Bônus inclusos'
-           videoI = '/assets/index/video_pascoa_isis.webp'
-           videoS = '/assets/chef-isis-alvarez/curso_pascoa/video_venda_pascoa_2023.mp4'
-           description = 'Você fica encantada quando está no instagram e ve passar aquelas fotos de ovos de páscoa lindos? E fica imaginando o quão complexo é chegar a esse nível de perfeição?
-           você vai aprender Técnicas de temperagem em passo a passo em vídeo aula, + De 20 modelos de Ovos Incríveis e a tão pedida Colomba Pascal'
-           preco = '697,00'
-           desconto ='127,00'
-           parcelas = '12x De R$ 12,37'
-           link_checkout='https://go.hotmart.com/I81320933I?ap=8ede'
-           link_pagina_vendas = 'https://go.hotmart.com/I81320933I'
 
-      />
      
     </div>
     <div className=" grid sm:grid-cols-2 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-2   gap-x-6 gap-y-4 ">
@@ -809,7 +791,7 @@ e receitas complementares. Você recebe assim que confirma o pagamento.</p>
       `}
       </style>
   
-    
+
 
 
     </main>

@@ -551,204 +551,209 @@ video {
 }
 
 .static {
-  position: static !important;
+  position: static;
 }
 
 .fixed {
-  position: fixed !important;
+  position: fixed;
 }
 
 .left-0 {
-  left: 0px !important;
+  left: 0px;
 }
 
 .right-0 {
-  right: 0px !important;
+  right: 0px;
 }
 
 .top-0 {
-  top: 0px !important;
+  top: 0px;
 }
 
 .mx-10 {
-  margin-left: 2.5rem !important;
-  margin-right: 2.5rem !important;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mx-8 {
-  margin-left: 2rem !important;
-  margin-right: 2rem !important;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mx-auto {
-  margin-left: auto !important;
-  margin-right: auto !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-10 {
-  margin-top: 2.5rem !important;
-  margin-bottom: 2.5rem !important;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .my-8 {
-  margin-top: 2rem !important;
-  margin-bottom: 2rem !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .mb-8 {
-  margin-bottom: 2rem !important;
+  margin-bottom: 2rem;
 }
 
 .mt-8 {
-  margin-top: 2rem !important;
+  margin-top: 2rem;
 }
 
 .flex {
-  display: flex !important;
+  display: flex;
 }
 
 .grid {
-  display: grid !important;
+  display: grid;
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .grid-flow-row {
-  grid-auto-flow: row !important;
+  grid-auto-flow: row;
 }
 
 .grid-flow-col {
-  grid-auto-flow: column !important;
+  grid-auto-flow: column;
 }
 
 .grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .items-center {
-  align-items: center !important;
+  align-items: center;
 }
 
 .justify-start {
-  justify-content: flex-start !important;
+  justify-content: flex-start;
 }
 
 .justify-center {
-  justify-content: center !important;
+  justify-content: center;
 }
 
 .gap-x-5 {
-  -moz-column-gap: 1.25rem !important;
-       column-gap: 1.25rem !important;
+  -moz-column-gap: 1.25rem;
+       column-gap: 1.25rem;
 }
 
 .gap-x-6 {
-  -moz-column-gap: 1.5rem !important;
-       column-gap: 1.5rem !important;
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
 }
 
 .gap-y-4 {
-  row-gap: 1rem !important;
+  row-gap: 1rem;
 }
 
 .justify-self-center {
-  justify-self: center !important;
+  justify-self: center;
 }
 
 .px-10 {
-  padding-left: 2.5rem !important;
-  padding-right: 2.5rem !important;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 
 .px-3 {
-  padding-left: 0.75rem !important;
-  padding-right: 0.75rem !important;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .py-10 {
-  padding-top: 2.5rem !important;
-  padding-bottom: 2.5rem !important;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-8 {
-  padding-top: 2rem !important;
-  padding-bottom: 2rem !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-8 {
-  padding-bottom: 2rem !important;
+  padding-bottom: 2rem;
 }
 
 .pt-8 {
-  padding-top: 2rem !important;
+  padding-top: 2rem;
 }
 
 .font-sans {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .uppercase {
-  text-transform: uppercase !important;
+  text-transform: uppercase;
 }
 
 .italic {
-  font-style: italic !important;
+  font-style: italic;
 }
 
 .underline {
-  text-decoration-line: underline !important;
+  text-decoration-line: underline;
 }
 
 .line-through {
-  text-decoration-line: line-through !important;
+  text-decoration-line: line-through;
 }
 
 .transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter !important;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter !important;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter !important;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) !important;
-  transition-duration: 150ms !important;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
 }
 
 @media (min-width: 640px) {
   .sm\:grid-cols-1 {
-    grid-template-columns: repeat(1, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 
   .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 768px) {
   .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1024px) {
   .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
 @media (min-width: 1280px) {
   .xl\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .xl\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }

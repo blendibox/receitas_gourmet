@@ -1,6 +1,7 @@
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons/faWhatsapp';
 import { faPinterest } from '@fortawesome/free-brands-svg-icons/faPinterest';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Head from 'next/head';
 
 //import categories from '../data/categories.json';
 
@@ -8,6 +9,21 @@ const Footer = () => {
 
   const more = 1;
   return (
+    <>
+ 
+       <style jsx global>{`
+
+          .fontWhats{
+            font-size: 18px;
+            width:30px;
+            margin-left:46%;
+            margin-top:3px;
+        }
+
+        `
+         }
+      </style>
+  
     <footer >
       <span className="footer">     
 
@@ -52,20 +68,10 @@ const Footer = () => {
           
       </span>
 
-       <style jsx global>{`
-
-          .fontWhats{
-            font-size: 18px;
-            width:30px;
-            margin-left:46%;
-            margin-top:3px;
-        }
-
-        `
-         }
-      </style>
+     
 
     </footer>
+    </>
   );
 };
 

@@ -14,7 +14,7 @@ const font = "/Poppins-Regular.woff";
   return (
       <div className="containner">
          <Head>
-           <title>Blendibox - Comprar Moda Online</title>
+           <title>Cursos de Confeitaria </title>
          </Head>
 
 

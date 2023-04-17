@@ -6,9 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
+
   experimental: {
     amp: {
-      skipValidation: true
+      skipValidation: false
     }
   },
     webpack: (config, { isServer }) => {

@@ -6,13 +6,13 @@ const purgecssOption = {
   ],
 
   // Include any special characters you're using in this regular expression
-  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
+  defaultExtractor: content => content.match(/[\w-:./]+(?<!:)/g) || []
 };
 
 
 module.exports = {
   plugins: {
-    tailwindcss: {purge: false},
+    tailwindcss: {purge: true},
     autoprefixer: {},
     ['@fullhuman/postcss-purgecss', purgecssOption]
   },

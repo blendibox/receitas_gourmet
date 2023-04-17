@@ -228,7 +228,7 @@ export async function getStaticProps(context) {
           <Video  image="/assets/chef-isis-alvarez/recheios/video_recheios.png" 
           src='/assets/chef-isis-alvarez/recheios/semana-gratuita-dos-recheios.mp4' 
           preload="auto"  loop="loop" muted="muted" layout="responsive"  
-          rotate-to-fullscreen="rotate-to-fullscreen" controls="controls" autoPlay 
+          rotate-to-fullscreen="rotate-to-fullscreen" controls="controls"  
           />
         </div>       
        
