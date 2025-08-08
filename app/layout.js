@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Cursos de Confeitaria",
-  description: "Aqui Você encontra os cursos de Confeitaria de Chef's Remonadas como Isis Alvarez e Marrara Bortoloti. Tudo para você se preparar para o sucesso!",
+  description: "Aqui Você encontra os cursos de Confeitaria de Chef's famosas como Isis Alvarez e Marrara Bortoloti. Tudo para você se preparar para o sucesso!",
 };
 
 export default function RootLayout({ children }) {
