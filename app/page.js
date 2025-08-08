@@ -473,7 +473,7 @@ className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
 			<div className="flex justify-center m-5      ">
 			     <video
 				id="produtoVideo"
-				src='video_pag_5.mp4'
+				src='video_pag_2.mp4'
 				playsInline
 				loop
 				autoPlay
