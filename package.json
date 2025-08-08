@@ -1,57 +1,23 @@
 {
-  "name": "blendibox/receitas-gourmet",
+  "name": "receitas_gourmet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": " npm run build-css && next dev ",
-    "build": "next build && next-sitemap",   
-    "build-css": "npx tailwindcss -i ./styles/tailwind.module.css -o ./styles/output.css --full",
-    "build-bing": "npx indexnow-submit sitemap-fetch https://cursoconfeitaria.blendibox.com.br/sitemap --output ./public/indexnowlist.txt",
-    "index-bing": "npx indexnow-submit submit-urls public/indexnowlist.txt --host cursoconfeitaria.blendibox.com.br --engine bing.com --key-file public/c64210b2794a4cbfbe6a7969e89847ff.txt --key c64210b2794a4cbfbe6a7969e89847ff",
+    "dev": "next dev --turbopack",
+    "build": "next build &&  next-sitemap",
     "start": "next start",
-    "export": "next export",
-    "lint": "next lint",
-    "predeploy": "next build && next-sitemap",
-    "deploy": "gh-pages -b main -d pages"
-  },
-  "scriptsComments": {
-    "build-replace": "regex-replace '!important;' ';' ./styles/output.css --filecontents",
-    "build": "next build && next export && next-sitemap",
-    "index-bing": "https://bing.com/indexnow?url=https://cursoconfeitaria.blendibox.com.br/indexnowlist.txt&key=c64210b2794a4cbfbe6a7969e89847ff"
-  },
-  "browser": {
-    "fs": false,
-    "path": false,
-    "os": false
+    "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.0",
-    "@fortawesome/free-brands-svg-icons": "^6.4.0",
-    "@fortawesome/free-solid-svg-icons": "^6.4.0",
-    "@fortawesome/react-fontawesome": "^0.2.0",
-    "gray-matter": "^4.0.3",
-    "indexnow-submit": "^1.1.1",
-    "next": "12.3.1",
-    "next-sitemap": "^3.1.23",
-    "node-html-parser": "^5.4.2-0",
-    "raw-loader": "^4.0.2",
-    "react": "18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "18.2.0",
-    "react-hotjar": "^5.1.0",
-    "react-moment": "^1.1.2",
-    "react-xml-parser": "^1.1.8",
-    "xml-js": "1.6.11",
-    "xml2json-light": "^1.0.6"
+    "next": "^15.4.4",
+    
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "sitemap": "^8.0.0"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.7",
-    "autoprefixer": "^10.4.14",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "feed": "^4.2.2",
-    "gh-pages": "^3.2.3",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
+    "@tailwindcss/postcss": "^4",
+	"next-sitemap": "^4.2.3",
+    "tailwindcss": "^4"
   }
 }

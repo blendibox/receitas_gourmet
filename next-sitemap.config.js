@@ -1,14 +1,12 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   siteUrl:  'https://cursoconfeitaria.blendibox.com.br',
-  generateRobotsTxt: true, // (optional)
-  exclude: ["/404"],
-   robotsTxtOptions: {
+  generateRobotsTxt: false,
+  sitemapSize: 5000,
+  outDir: './out',
+  robotsTxtOptions: {
     policies: [
-      {
-        userAgent: "*",
-        disallow: ["/404"],
-      },
+      { userAgent: "*", disallow: ["/404"] },
       { userAgent: "*", allow: "/" },
     ]
   },

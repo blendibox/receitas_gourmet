@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "paths": {
-      "@/components/*": ["components/*"],
-      "@/assets/*": ["assets/*"],
-      "@/recheios/*": ["assets/chef-isis-alvarez/recheios/*"],
-      
+      "@/*": ["./*"]
     }
   }
 }
