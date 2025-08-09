@@ -180,7 +180,7 @@ VER CURSOS</Link>
 		  </Link>	
 		
 								{/* Card curso*/}
-			<Link className="bg-amber-50 rounded-lg   shadow-xl shadow-red-500/50 min-h-100" 
+			<Link className="bg-amber-50 rounded-lg   shadow-xl shadow-red-500/50 min-h-130 max-h-130" 
 							
 								href="https://go.hotmart.com/T101220571S">
         <div >
@@ -206,7 +206,7 @@ VER CURSOS</Link>
 		
 				{/* Card curso*/}
 				 <Link href="https://go.hotmart.com/S101220577Q">
-        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-100">
+        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-130 max-h-130">
           <div>
 		  
 		  
@@ -229,7 +229,7 @@ VER CURSOS</Link>
 		
 				{/* Card curso*/}
 				 <Link href="https://go.hotmart.com/A101256401Q">
-        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-100">
+        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-130 max-h-130">
           <div>
 		  
 		  
@@ -251,7 +251,7 @@ VER CURSOS</Link>
 		
 							{/* Card curso*/}
 		<Link href="https://go.hotmart.com/M92814070N">
-        <div className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100">
+        <div className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-130 max-h-130">
           <div>
 	
 		  
@@ -276,7 +276,7 @@ VER CURSOS</Link>
 		
 						{/* Card curso*/}
 						   <Link href="https://go.hotmart.com/P101220643E">
-        <div className="bg-white rounded-lg   shadow-xl shadow-red-500/50 min-h-100">
+        <div className="bg-white rounded-lg   shadow-xl shadow-red-500/50 min-h-130 max-h-130">
           <div>
 		
 		  
@@ -301,9 +301,9 @@ VER CURSOS</Link>
 			        {/* Card curso*/}
 		 <Link href="https://go.hotmart.com/R101060256U">
 		 
-			<div className="bg-purple-400 rounded-lg   shadow-xl shadow-purple-500/50 min-h-100 max-h-130">
+			<div className="bg-purple-400 rounded-lg   shadow-xl shadow-purple-500/50 min-h-130 max-h-130">
 			
-			  <div className="mt-5">
+			  <div className="">
 			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-purple-800/50">
 			   <p className="font-mono  text-purple-700 p-3 justify-center text-2xl    "> Bolos de Vitrine</p>
 		  
@@ -324,9 +324,9 @@ VER CURSOS</Link>
 		       {/* Card curso*/}
 		 <Link href="https://go.hotmart.com/T101060258F">
 		 
-			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100 max-h-130">
+			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-130 max-h-130">
 			
-			  <div className="mt-5">
+			  <div className="">
 			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-pink-800/50">
 			   <p className="font-mono  text-pink-700 p-3 justify-center text-2xl    "> Bolos Vulcão</p>
 		  
@@ -346,9 +346,9 @@ VER CURSOS</Link>
 		       {/* Card curso*/}
 		 <Link href="https://go.hotmart.com/Q101060257D">
 		 
-			<div className="bg-red-400 rounded-lg   shadow-xl shadow-red-500/50 min-h-100 max-h-130">
+			<div className="bg-red-400 rounded-lg   shadow-xl shadow-red-500/50 min-h-130 max-h-130">
 			
-			  <div className="mt-5">
+			  <div className="">
 			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-red-800/50">
 			   <p className="font-mono  text-red-700 p-3 justify-center text-1xl bold  "> Festival de Brigadeiros</p>
 		  
@@ -370,9 +370,9 @@ VER CURSOS</Link>
 				       {/* Card curso*/}
 		 <Link href="https://go.hotmart.com/T101060258F">
 		 
-			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100 max-h-130">
+			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-130 max-h-130">
 			
-			  <div className="mt-5">
+			  <div className="">
 			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-pink-800/50">
 			   <p className="font-mono  text-pink-700 p-3 justify-center text-2xl    "> Massas Perfeitas </p>
 		  
