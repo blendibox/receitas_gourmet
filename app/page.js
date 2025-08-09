@@ -3,6 +3,18 @@ import Image from "next/image";
 import Carousel from '@/components/Carousel'
 import Link from 'next/link'
 
+
+
+
+export async function generateMetadata() {
+
+  return {
+    title: 'Cursos de Confeitaria, bolos, doces e tortas',
+    description:'Os melhores cursos de confeitaria você encontra aqui: Cursos e apostilas de Chefs renomadas como Marrara Bortoloti e Isis Alvarez ',
+  };
+}
+
+
 export default function Home() {
   return (
 <>

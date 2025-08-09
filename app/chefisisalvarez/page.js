@@ -3,6 +3,8 @@ import Image from "next/image";
 import Carousel from '@/components/Carousel'
 import Link from 'next/link'
 
+
+
 export default function Home() {
   return (
 <>
@@ -11,7 +13,8 @@ export default function Home() {
 		<Image
 		className="flex justify-center min-w-screen"
 							   src='../../images/chef_isis_alvarez/backgroun-desk-ok.webp'
-							   alt="Guias, agendas e materiais didáticos"
+							   alt="Chef Isis Alvarez"
+							   priority 
 							   width={500}
 							   height={500}
 
