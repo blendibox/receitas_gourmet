@@ -7,23 +7,8 @@ export default function Home() {
   return (
 <>
 
-
-    {/* Seção inicio */}
-    <div id="inicio" className="  mh-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-1 gap-4  bold  text-white py-16">
-	
-        <div className="flex mt-0  max-w-[80%] max-w-7xl mx-auto  grid md:grid-cols-1 gap-8 px-4  bg-p-900 	">
-			   
-					
-		 <div className="  bg-amber-200 p-5 text-pink-900 rounded text-1xl sm:text-sm   xl:text-xl lg:text-lg md:text-md">
-			   Tenha Acesso Aos Melhores <b className="font-mono">Cursos De Confeitaria </b><br/>
-			Aprenda sem precisar sair de casa, sem gastar com deslocamento.<br/>
-			Aulas  <b className="font-mono">detalhadas</b>, que você poderá ver e rever sempre que quiser!<br/>
-			Cursos para  <b className="font-mono">iniciantes</b> e  <b className="font-mono">profissionais</b> que querem aprimorar seus conhecimentos<br/>
-<Link href="#cursos" 
-className=" flex font-mono  rounded bg-pink-600 text-white p-5 mt-5 max-w-[70%] ml-[15%] mr-[15%] justify-center text-center  shadow-xl shadow-purple-500/50 "> 
-<svg aria-hidden="true" className="max-w-7 mr-3 fill-white " viewBox="0 0 20 20"   xmlns="http://www.w3.org/2000/svg"><path d="M16.924 9.617A1 1 0 0 0 16 9H8a1 1 0 0 0-.707 1.707l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 .217-1.09z"  data-name="Down"/></svg>		
-VER CURSOS</Link>         
-		 <video
+{/*video background*/}
+ <video
 				id="produtoVideo"
 				src='../../assets/chef-isis-alvarez/bolo_no_pote/bolo_no_pote.mp4'
 				alt="chef isis alvarez"
@@ -31,8 +16,27 @@ VER CURSOS</Link>
 				loop
 				autoPlay
 				muted
-				className='flex relative saturate-[1.5] contrast-[1.03]  max-w-[90%] ml-[5%] mr-[5%] mt-5 rounded shadow-xl shadow-purple-800/30   '
+				className='absolute  w-auto min-w-full min-h-full max-w-none opacity-70 background-black contrast-110 saturation-110    '
 			  ></video> 
+
+
+
+    {/* Seção inicio */}
+    <div id="inicio" className=" opacity-90  mh-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-1 gap-4  bold  text-white py-16">
+	
+        <div className="flex mt-0  max-w-[80%] max-w-7xl mx-auto  grid md:grid-cols-1 gap-8 px-4  bg-p-900 	">
+			   
+					
+		 <div className=" bg-amber-200 p-5 text-pink-900 rounded text-1xl sm:text-sm   xl:text-xl lg:text-lg md:text-md">
+			   Tenha Acesso Aos Melhores <b className="font-mono">Cursos De Confeitaria </b><br/>
+			Aprenda sem precisar sair de casa, sem gastar com deslocamento.<br/>
+			Aulas  <b className="font-mono">detalhadas</b>, que você poderá ver e rever sempre que quiser!<br/>
+			Cursos para  <b className="font-mono">iniciantes</b> e  <b className="font-mono">profissionais</b> que querem aprimorar seus conhecimentos<br/>
+<Link href="#cursos" 
+className=" flex font-mono  rounded bg-pink-600 text-white p-5 mt-5 max-w-[80%] ml-[10%] mr-[10%] justify-center text-center  shadow-xl shadow-purple-500/50 "> 
+<svg aria-hidden="true" className="max-w-7 mr-3 fill-white " viewBox="0 0 20 20"   xmlns="http://www.w3.org/2000/svg"><path d="M16.924 9.617A1 1 0 0 0 16 9H8a1 1 0 0 0-.707 1.707l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 .217-1.09z"  data-name="Down"/></svg>		
+VER CURSOS</Link>         
+	
 
 
 			   </div>
@@ -41,13 +45,14 @@ VER CURSOS</Link>
 			 </div>
 			 
 	</div>
+	
     <div id="meio" className="   text-center  relative grid bg-purple-900 grid-flow-col  gap-4  bold bg-purple-900 text-white py-16">
 		
 			 
     {/* Seção cursos */}
-    <div id="cursos" className="relative bg-black text-white py-16">
+    <div id="cursos" className="relative bg-black text-white py-6">
 		  <h2 className=" text-white-500 font-mono max-w-[70%] ml-[15%] mr-[15%] text-3xl"><b>CURSOS</b>
-  <br/>
+      <br/>
 		  <small className="text-sm">(toque no curso desejado)</small>   </h2>
 	   <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-3 gap-6 px-4">
 	   
@@ -60,12 +65,13 @@ VER CURSOS</Link>
 				src='../../images/chef_isis_alvarez/capa-roxa-ebooks-bolo-no-pote.webp'
 				alt="Curso Chef Isis Alvares - Fábrica de Bolos no Pote"
 				 width={400}
+				 priority 
 				height={100}
 		/>	
         	
           </div>
         </div>
- </Link>	
+       </Link>	
  
  
  		{/* Card curso*/}
@@ -280,252 +286,106 @@ VER CURSOS</Link>
 		
 			
 		
+			        {/* Card curso*/}
+		 <Link href="https://go.hotmart.com/R101060256U">
+		 
+			<div className="bg-purple-400 rounded-lg   shadow-xl shadow-purple-500/50 min-h-100 max-h-130">
 			
+			  <div className="mt-5">
+			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-purple-800/50">
+			   <p className="font-mono  text-purple-700 p-3 justify-center text-2xl    "> Bolos de Vitrine</p>
+		  
+			 </div>
+				<Image className="flex justify-center relative rounded"
+					src='../../images/chef_marrara_bortoloti/apostila-com-mola-bolos-de-vitrine.png'
+					alt="Curso Chef Marrara Bortoloti - Ebook Bolos de Vitrine + Sobremesas que Vendem!"
+					 width={400}
+					height={100}
+			/>	
+				
+			  </div>
+			  
+			</div>
+        </Link>	
 		
 		
-	
-	
-	
+		       {/* Card curso*/}
+		 <Link href="https://go.hotmart.com/T101060258F">
+		 
+			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100 max-h-130">
+			
+			  <div className="mt-5">
+			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-pink-800/50">
+			   <p className="font-mono  text-pink-700 p-3 justify-center text-2xl    "> Bolos Vulcão</p>
+		  
+			 </div>
+				<Image className="flex justify-center relative rounded"
+					src='../../images/chef_marrara_bortoloti/6275883-e1721325774443.png'
+					alt="Curso Chef Marrara Bortoloti - Bolos Vulcão e Piscina com Marrara Bortoloti"
+					 width={400}
+					height={100}
+			/>	
+				
+			  </div>
+			  
+			</div>
+        </Link>	
+		
+		       {/* Card curso*/}
+		 <Link href="https://go.hotmart.com/Q101060257D">
+		 
+			<div className="bg-red-400 rounded-lg   shadow-xl shadow-red-500/50 min-h-100 max-h-130">
+			
+			  <div className="mt-5">
+			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-red-800/50">
+			   <p className="font-mono  text-red-700 p-3 justify-center text-1xl bold  "> Festival de Brigadeiros</p>
+		  
+			 </div>
+				<Image className="flex justify-center relative rounded"
+					src='../../images/chef_marrara_bortoloti/apostila-de-brigadeiros-747x1024.png'
+					alt="Curso Chef Marrara Bortoloti - Bolos Vulcão e Piscina com Marrara Bortoloti"
+					 width={400}
+					height={100}
+			/>	
+				
+			  </div>
+			  
+			</div>
+        </Link>	
+		
+		
+		
+				       {/* Card curso*/}
+		 <Link href="https://go.hotmart.com/T101060258F">
+		 
+			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100 max-h-130">
+			
+			  <div className="mt-5">
+			  <div className="mb-5  rounded bg-white max-w-70 shadow-xl shadow-pink-800/50">
+			   <p className="font-mono  text-pink-700 p-3 justify-center text-2xl    "> Massas Perfeitas </p>
+		  
+			 </div>
+				<Image className="flex justify-center relative rounded"
+					src='../../images/chef_marrara_bortoloti/5179040-e1721317244556-777x1024.png'
+					alt="Curso Chef Marrara Bortoloti - Massas perfeitas com Marrara Bortoloti"
+					 width={400}
+					height={100}
+			/>	
+				
+			  </div>
+			  
+			</div>
+        </Link>	
+		
+		
+		
 	
 	</div>	
 </div>
 			 
 			 
-			 
-			 
-			 
-			 
-			 </div>
-			 
- <div id="planos" className="  mx-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-6 gap-4 text-3xl bold bg-purple-900 text-white py-16">
-		 
-		 
-	   <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-1 gap-8 px-4  bg-purple-900 	">
-	  
-	  <div className="col  bg-amber-400 rounded ">
-	    <div className="flex justify-center mb-6 mt-6  ">
-			<div className=" text-center justify-center max-w-2xl  m-5">
-			<div className=" ml-[26%] bg-white rounded-full  m-5  min-h-25 min-w-25  max-w-35 text-center justify-center  text-red-500">
-				  <Image className="flex justify-center max-w-38 min-h-10 p-5 "
-					   src='images/BolosdeFestaok.png.webp'
-					   alt="Guias, agendas e materiais didáticos"
-					   width={140}
-					   height={140}
-				   />  
-              </div>				   
-		  <div >
-			  curso:<br/> <b className='italic text-3xl bold text-red-800 '>Bolos De Festa Ísis Alvarez</b><br/><br/>
-			  </div>
-		  
-			  
-			  	 <div className="text-center justify-center max-w-12xl">
-				  <div className="ml-15 mr-15 sm:ml-5 sm:mr-5 flex justify-center  shadow-xl shadow-red-500/30 m-2  	z-30 p-5 text-2xl sm:text-md text-white text-center bg-red-500 bg-opacity-50 rounded-xl hover:bg-red-600  cursor-pointer  transition delay-100 duration-300 ease-in-out  hover:rotate-1 hover:-translate-1  hover:shadow-xl hover:shadow-red-500/30">
-		
-				<Link  href="https://go.hotmart.com/U81320832O">
-				Saiba Mais!
-				</Link>
-				</div>
-				</div>
-			 </div> 	  
-			<div className="flex justify-center m-5      ">
-			     <video
-				id="produtoVideo"
-				src='assets/chef-isis-alvarez/bolo_andar_ganache/chamada_semana_gratuita_bolos_de_festa.mp4'
-				playsInline
-				loop
-				autoPlay
-				muted
-				className='relative  w-auto max-w-2xl rounded shadow-xl shadow-purple-800/30   '
-			  ></video>
-			  
-			  </div>
-		
-			  </div>
-	  </div>
-	</div>	 
-  
-    <div className=" max-w-6xl mx-auto mt-10 grid md:grid-cols-1 gap-8 px-4  bg-purple-900 	">
-	  
-	  <div className="col  bg-amber-400 rounded ">
-	    <div className="flex justify-center mb-6 mt-6  ">
-			<div className=" text-center justify-center max-w-2xl  m-5">
-			<div className=" ml-[26%]  bg-white rounded-full  m-5  min-h-25 min-w-25  max-w-35 text-center justify-center  text-red-500">
-				  <Image className="flex justify-center max-w-40 min-h-10 p-5 "
-					   src='images/CapaCursoBolosNoPoteGourmet.jpeg'
-					   alt="Guias, agendas e materiais didáticos"
-					   width={140}
-					   height={140}
-				   />  
-              </div>				   
-		  <div >
-			  curso:<br/> <b className='italic text-3xl bold text-amber-800 '>Bolos no Pote Gourmet</b><br/><br/>
-			  </div>
-		  
-			  
-			  	 <div className="text-center justify-center max-w-12xl">
-				  <div className="ml-15 mr-15 sm:ml-5 sm:mr-5 flex justify-center  shadow-xl shadow-red-500/30 m-2  	z-30 p-5 text-2xl sm:text-md text-white text-center bg-red-500 bg-opacity-50 rounded-xl hover:bg-red-600  cursor-pointer  transition delay-100 duration-300 ease-in-out  hover:rotate-1 hover:-translate-1  hover:shadow-xl hover:shadow-red-500/30">
-		
-				<Link  href="https://go.hotmart.com/T50684642P?dp=1">
-				Saiba Mais!
-				</Link>
-				</div>
-				</div>
-			 </div> 	  
-			<div className="flex justify-center m-5      ">
-			     <video
-				id="produtoVideo"
-				src='video_pag_1.mov'
-				playsInline
-				loop
-				autoPlay
-				muted
-				className='relative  w-auto max-w-2xl rounded shadow-xl shadow-purple-800/30   '
-			  ></video>
-			  
-			  </div>
-		
-			  </div>
-	  </div>
-	</div>
 
-   
- 
-
-		    <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-1 gap-8 px-4  bg-purple-900 	">
-	  
-	  <div className="col  bg-amber-400 rounded ">
-	    <div className="flex justify-center mb-6 mt-6  ">
-			<div className=" text-center justify-center max-w-2xl  m-5">
-			<div className=" ml-[26%] bg-red-900 rounded-full  m-5  min-h-25 min-w-25  max-w-35 text-center justify-center  text-red-500">
-				  <Image className="flex justify-center max-w-38 min-h-10 p-5 "
-					   src='images/marrara.png'
-					   alt="Guias, agendas e materiais didáticos"
-					   width={140}
-					   height={140}
-				   />  
-              </div>				   
-		  <div >
-			  curso:<br/> <b className='italic text-3xl bold text-red-800 '>Bolo Vulcão e Piscina - Marrara Bortoloti</b><br/><br/>
-			  </div>
-		  
-			  
-			  	 <div className="text-center justify-center max-w-12xl">
-				  <div className="ml-15 mr-15 sm:ml-5 sm:mr-5 flex justify-center  shadow-xl shadow-red-500/30 m-2  	z-30 p-5 text-2xl sm:text-md text-white text-center bg-red-500 bg-opacity-50 rounded-xl hover:bg-red-600  cursor-pointer  transition delay-100 duration-300 ease-in-out  hover:rotate-1 hover:-translate-1  hover:shadow-xl hover:shadow-red-500/30">
-		
-				<Link  href="https://go.hotmart.com/T101060258F">
-				Saiba Mais!
-				</Link>
-				</div>
-				</div>
-			 </div> 	  
-			<div className="flex justify-center m-5      ">
-			     <video
-				id="produtoVideo"
-				src='video_pag_3.mp4'
-				playsInline
-				loop
-				autoPlay
-				muted
-				className='relative  w-auto max-w-2xl rounded shadow-xl shadow-purple-800/30   '
-			  ></video>
-			  
-			  </div>
-		
-			  </div>
-	  </div>
-	</div>	 
 	
-		    <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-1 gap-8 px-4  bg-purple-900 	">
-	  
-	  <div className="col  bg-amber-400 rounded ">
-	    <div className="flex justify-center mb-6 mt-6  ">
-			<div className=" text-center justify-center max-w-2xl  m-5">
-			<div className=" ml-[26%] bg-red-900 rounded-full  m-5  min-h-25 min-w-25  max-w-35 text-center justify-center  text-red-500">
-				  <Image className="flex justify-center max-w-38 min-h-10 p-5 "
-					   src='images/marrara.png'
-					   alt="Guias, agendas e materiais didáticos"
-					   width={140}
-					   height={140}
-				   />  
-              </div>				   
-		  <div >
-			  curso:<br/> <b className='italic text-3xl bold text-red-800 '>Bolos e Sobremesas de Vitrine - Marrara Bortoloti</b><br/><br/>
-			  </div>
-		  
-			  
-			  	 <div className="text-center justify-center max-w-12xl">
-				  <div className="ml-15 mr-15 sm:ml-5 sm:mr-5 flex justify-center  shadow-xl shadow-red-500/30 m-2  	z-30 p-5 text-2xl sm:text-md text-white text-center bg-red-500 bg-opacity-50 rounded-xl hover:bg-red-600  cursor-pointer  transition delay-100 duration-300 ease-in-out  hover:rotate-1 hover:-translate-1  hover:shadow-xl hover:shadow-red-500/30">
-		
-				<Link  href="https://go.hotmart.com/R101060256U">
-				Saiba Mais!
-				</Link>
-				</div>
-				</div>
-			 </div> 	  
-			<div className="flex justify-center m-5      ">
-			     <video
-				id="produtoVideo"
-				src='video_pag_4.mov'
-				playsInline
-				loop
-				autoPlay
-				muted
-				className='relative  w-auto max-w-2xl rounded shadow-xl shadow-purple-800/30   '
-			  ></video>
-			  
-			  </div>
-		
-			  </div>
-	  </div>
-	</div>	 
-
-
-
-			    <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-1 gap-8 px-4  bg-purple-900 	">
-	  
-	  <div className="col  bg-amber-400 rounded ">
-	    <div className="flex justify-center mb-6 mt-6  ">
-			<div className=" text-center justify-center max-w-2xl  m-5">
-			<div className=" ml-[26%] bg-red-900 rounded-full  m-5  min-h-25 min-w-25  max-w-35 text-center justify-center  text-red-500">
-				  <Image className="flex justify-center max-w-38 min-h-10 p-5 "
-					   src='images/marrara.png'
-					   alt="Guias, agendas e materiais didáticos"
-					   width={140}
-					   height={140}
-				   />  
-              </div>				   
-		  <div >
-			  curso:<br/> <b className='italic text-3xl bold text-red-800 '>Bolos de Sucesso - Marrara Bortoloti</b><br/><br/>
-			  </div>
-		  
-			  
-			  	 <div className="text-center justify-center max-w-12xl">
-				  <div className="ml-15 mr-15 sm:ml-5 sm:mr-5 flex justify-center  shadow-xl shadow-red-500/30 m-2  	z-30 p-5 text-2xl sm:text-md text-white text-center bg-red-500 bg-opacity-50 rounded-xl hover:bg-red-600  cursor-pointer  transition delay-100 duration-300 ease-in-out  hover:rotate-1 hover:-translate-1  hover:shadow-xl hover:shadow-red-500/30">
-		
-				<Link  href="https://go.hotmart.com/E96070367U">
-				Saiba Mais!
-				</Link>
-				</div>
-				</div>
-			 </div> 	  
-			<div className="flex justify-center m-5      ">
-			     <video
-				id="produtoVideo"
-				src='video_pag_2.mp4'
-				playsInline
-				loop
-				autoPlay
-				muted
-				className='relative  w-auto max-w-2xl rounded shadow-xl shadow-purple-800/30   '
-			  ></video>
-			  
-			  </div>
-		
-			  </div>
-	  </div>
-	</div>	
-
-
   </div>
 </>
 
