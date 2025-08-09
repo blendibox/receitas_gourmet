@@ -389,6 +389,30 @@ VER CURSOS</Link>
 			</div>
         </Link>	
 		
+				       {/* Card curso*/}
+		 <Link href="https://go.hotmart.com/V101060254T">
+		 
+			<div className="bg-pink-400 rounded-lg   shadow-xl shadow-pink-500/50 min-h-130 max-h-130">
+			
+			  <div className="">
+			  <div className="mb-5  rounded bg-white max-w-80 shadow-xl shadow-pink-800/50">
+			   <p className="font-mono  text-pink-700 p-3 justify-center text-2xl    "> Escola do Bolo 3.0 </p>
+		  
+			 </div>
+				<Image className="flex justify-center relative rounded"
+					src='../../images/chef_marrara_bortoloti/7813081.jpg'
+					alt="Curso Chef Marrara Bortoloti - Escola do Bolo 3.0"
+					 width={400}
+					height={100}
+			/>	
+				
+			  </div>
+			  
+			</div>
+        </Link>	
+		
+
+		
 		
 		
 	
