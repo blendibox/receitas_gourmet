@@ -11,17 +11,17 @@ export default function Home() {
     {/* Seção inicio */}
     <div id="inicio" className="  mh-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-1 gap-4  bold  text-white py-16">
 	
-        <div className="flex mt-0  max-w-[80%] max-w-6xl mx-auto  grid md:grid-cols-1 gap-8 px-4  bg-p-900 	">
+        <div className="flex mt-0  max-w-[80%] max-w-7xl mx-auto  grid md:grid-cols-1 gap-8 px-4  bg-p-900 	">
 			   
 					
-		 <div className="  bg-amber-200 p-10 text-pink-900 rounded text-2xl sm:text-md md:text-md">
+		 <div className="  bg-amber-200 p-5 text-pink-900 rounded text-1xl sm:text-sm   xl:text-xl lg:text-lg md:text-md">
 			   Tenha Acesso Aos Melhores <b className="font-mono">Cursos De Confeitaria </b><br/>
 			Aprenda sem precisar sair de casa, sem gastar com deslocamento.<br/>
 			Aulas  <b className="font-mono">detalhadas</b>, que você poderá ver e rever sempre que quiser!<br/>
 			Cursos para  <b className="font-mono">iniciantes</b> e  <b className="font-mono">profissionais</b> que querem aprimorar seus conhecimentos<br/>
 <Link href="#cursos" 
-className=" flex font-mono  rounded bg-pink-600 text-white p-5 mt-5 max-w-[50%] ml-[25%] mr-[25%] justify-center text-center  shadow-xl shadow-purple-500/50 "> 
-<svg aria-hidden="true" className="max-w-8 mr-3 fill-white " viewBox="0 0 20 20"   xmlns="http://www.w3.org/2000/svg"><path d="M16.924 9.617A1 1 0 0 0 16 9H8a1 1 0 0 0-.707 1.707l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 .217-1.09z"  data-name="Down"/></svg>		
+className=" flex font-mono  rounded bg-pink-600 text-white p-5 mt-5 max-w-[70%] ml-[15%] mr-[15%] justify-center text-center  shadow-xl shadow-purple-500/50 "> 
+<svg aria-hidden="true" className="max-w-7 mr-3 fill-white " viewBox="0 0 20 20"   xmlns="http://www.w3.org/2000/svg"><path d="M16.924 9.617A1 1 0 0 0 16 9H8a1 1 0 0 0-.707 1.707l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0 .217-1.09z"  data-name="Down"/></svg>		
 VER CURSOS</Link>         
 		 <video
 				id="produtoVideo"
@@ -31,7 +31,7 @@ VER CURSOS</Link>
 				loop
 				autoPlay
 				muted
-				className='flex relative saturate-[1.5] contrast-[1.03]  max-w-[80%] ml-[10%] mr-[10%] mt-5 rounded shadow-xl shadow-purple-800/30   '
+				className='flex relative saturate-[1.5] contrast-[1.03]  max-w-[90%] ml-[5%] mr-[5%] mt-5 rounded shadow-xl shadow-purple-800/30   '
 			  ></video> 
 
 
@@ -46,7 +46,7 @@ VER CURSOS</Link>
 			 
     {/* Seção cursos */}
     <div id="cursos" className="relative bg-black text-white py-16">
-		  <h2 className=" text-white-500 font-mono ml-10 text-3xl"><b>CURSOS</b>
+		  <h2 className=" text-white-500 font-mono max-w-[70%] ml-[15%] mr-[15%] text-3xl"><b>CURSOS</b>
   <br/>
 		  <small className="text-sm">(toque no curso desejado)</small>   </h2>
 	   <div className="max-w-6xl mx-auto mt-10 grid md:grid-cols-3 gap-6 px-4">
@@ -102,11 +102,23 @@ VER CURSOS</Link>
         </div>
 		    </Link>	
 			
-			
-			
-			
- 
- 	
+									{/* Card curso*/}
+		<Link href="https://go.hotmart.com/G101256374B">
+        <div className="bg-yellow-200 rounded-lg   shadow-xl shadow-yellow-500/50 min-h-100">
+          <div>
+	
+		  
+		  	<Image className="flex justify-center relative rounded saturate-[1.5] contrast-[1.03]"
+				src='../../images/chef_isis_alvarez/capa-amarela-bolod-caseiros.webp'
+				alt="Curso Chef Isis Alvares -Bolos Caseiros com Sabor e Alma Junina – por Chef Ísis Alvarez"
+				 width={400}
+				height={100}
+		/>	
+       		
+          </div>
+		  
+        </div>
+		</Link>	
 		
 							{/* Card curso*/}
 							 
@@ -196,11 +208,32 @@ VER CURSOS</Link>
 		</Link>	
 		
 		
+		
+				{/* Card curso*/}
+				 <Link href="https://go.hotmart.com/A101256401Q">
+        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-100">
+          <div>
+		  
+		  
+		  	<Image className="flex justify-center relative rounded saturate-[1.4] contrast-[1.03]"
+				src='../../images/chef_isis_alvarez/CapaTortas41.webp'
+				alt="Curso Chef Isis Alvares - Apostila Tortas de Confeitaria da Chef Isis"
+				 width={400}
+				height={100}
+		/>	
+       		
+          </div>
+		  <div className="m-5">
+		 <div className="text-white p-3 text-3xl ml-[25%] rounded bg-pink-700  max-w-43"> R$ 19,00</div>
+         <p className="text-pink-700 pl-5 pb-5 text-1xl mt-5  ml-[10%]"> em 2x de <b>R$ 10,40</b>	 no cartão </p>
+		 </div>
+        </div>
+		</Link>	
+		
+		
 							{/* Card curso*/}
-								   <Link
-className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
-								   href="https://go.hotmart.com/M92814070N">
-        <div >
+		<Link href="https://go.hotmart.com/M92814070N">
+        <div className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100">
           <div>
 	
 		  
@@ -218,6 +251,9 @@ className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
 		 </div>
         </div>
 		</Link>	
+		
+			
+	
 		
 		
 						{/* Card curso*/}
@@ -241,6 +277,8 @@ className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
 		 </div>
         </div>
 		</Link>
+		
+			
 		
 			
 		

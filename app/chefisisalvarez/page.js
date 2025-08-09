@@ -95,7 +95,23 @@ export default function Home() {
         </div>
 		    </Link>	
 			
-			
+									{/* Card curso*/}
+		<Link href="https://go.hotmart.com/G101256374B">
+        <div className="bg-yellow-200 rounded-lg   shadow-xl shadow-yellow-500/50 min-h-100">
+          <div>
+	
+		  
+		  	<Image className="flex justify-center relative rounded saturate-[1.5] contrast-[1.03]"
+				src='../../images/chef_isis_alvarez/capa-amarela-bolod-caseiros.webp'
+				alt="Curso Chef Isis Alvares -Bolos Caseiros com Sabor e Alma Junina – por Chef Ísis Alvarez"
+				 width={400}
+				height={100}
+		/>	
+       		
+          </div>
+		  
+        </div>
+		</Link>	
 		
 							{/* Card curso*/}
 							 
@@ -185,11 +201,32 @@ export default function Home() {
 		</Link>	
 		
 		
+		
+				{/* Card curso*/}
+				 <Link href="https://go.hotmart.com/A101256401Q">
+        <div className="bg-white rounded-lg   shadow-xl shadow-amber-500/50 min-h-100">
+          <div>
+		  
+		  
+		  	<Image className="flex justify-center relative rounded saturate-[1.4] contrast-[1.03]"
+				src='../../images/chef_isis_alvarez/CapaTortas41.webp'
+				alt="Curso Chef Isis Alvares - Apostila Tortas de Confeitaria da Chef Isis"
+				 width={400}
+				height={100}
+		/>	
+       		
+          </div>
+		  <div className="m-5">
+		 <div className="text-white p-3 text-3xl ml-[25%] rounded bg-pink-700  max-w-43"> R$ 19,00</div>
+         <p className="text-pink-700 pl-5 pb-5 text-1xl mt-5  ml-[10%]"> em 2x de <b>R$ 10,40</b>	 no cartão </p>
+		 </div>
+        </div>
+		</Link>	
+		
+		
 							{/* Card curso*/}
-								   <Link
-className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
-								   href="https://go.hotmart.com/M92814070N">
-        <div >
+		<Link href="https://go.hotmart.com/M92814070N">
+        <div className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100">
           <div>
 	
 		  
@@ -207,6 +244,9 @@ className="bg-pink-200 rounded-lg   shadow-xl shadow-pink-500/50 min-h-100"
 		 </div>
         </div>
 		</Link>	
+		
+			
+	
 		
 		
 						{/* Card curso*/}
