@@ -196,7 +196,7 @@ export default function Home() {
    
 			<div className=" max-w-6xl mx-auto mt-5">
 			Me chamo Marrara Bortoloti, tenho 33 anos, sou mãe, confeiteira e produtora dos Cursos Bolos de Sucesso e Escola de Bolo com mais de 50 mil alunas em todo o Brasil e no mundo!
-A Confeitaria é realmente surpreendente, sempre cheia de novidades e oportunidades... E se Você quer começar um negócio próprio ou simplesmente preparar Bolos Incríveis, diferenciados e especiais, esse curso é perfeito para você!
+A Confeitaria é realmente surpreendente, sempre cheia de novidades e oportunidades... E se Você quer começar um negócio próprio ou simplesmente preparar Bolos Incríveis, diferenciados e especiais, estes cursos são perfeitos para você!
 		</div>			
 
      
