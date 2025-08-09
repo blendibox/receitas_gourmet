@@ -325,19 +325,7 @@ A partir de vários pedidos de aulas e receitas, comecei então a formar turma
 Ao mesmo tempo, comecei a oferecer minhas aulas ONLINE, gravando cursos completos e com suporte, para que todos os que desejam aprender ou aprimorar seus conhecimentos consigam com esta facilidade.
 </div>			
 
-      <div className="justify-center max-w-6xl mx-auto mt-5">
-		   <Link href="https://go.hotmart.com/T101220571S">
-		  
-		  	<Image className="flex justify-center relative rounded"
-				src='../../images/compra-segura-hotmart-w1000-768x230.png.webp'
-				alt=" Isis Alvares - Chef Confeiteira"
-				 width={400}
-				height={100}
-		/>	
-       </Link>	
-
-
-            </div>	
+     
     
     </div>
   </div>

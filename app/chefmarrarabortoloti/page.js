@@ -199,20 +199,7 @@ export default function Home() {
 A Confeitaria é realmente surpreendente, sempre cheia de novidades e oportunidades... E se Você quer começar um negócio próprio ou simplesmente preparar Bolos Incríveis, diferenciados e especiais, esse curso é perfeito para você!
 		</div>			
 
-      <div className="justify-center max-w-6xl mx-auto mt-5">
-		   <Link href="https://go.hotmart.com/T101220571S">
-		  
-		  	<Image className="flex justify-center relative rounded"
-				src='../../images/compra-segura-hotmart-w1000-768x230.png.webp'
-				alt=" Isis Alvares - Chef Confeiteira"
-				 width={400}
-				height={100}
-		/>	
-       </Link>	
-
-
-            </div>	
-    
+     
     </div>
   </div>
 </>

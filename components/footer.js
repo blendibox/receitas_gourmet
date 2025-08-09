@@ -18,6 +18,21 @@ export default function Footer() {
   return (
     <footer className=" min-h-[120px] bg-black text-white ">
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-4 gap-8">
+	  
+	   <div className="justify-center max-w-6xl mx-auto mt-5">
+		   <Link href="https://go.hotmart.com/T101220571S">
+		  
+		  	<Image className="flex justify-center relative rounded"
+				src='../../images/compra-segura-hotmart-w1000-768x230.png.webp'
+				alt=" Isis Alvares - Chef Confeiteira"
+				 width={400}
+				height={100}
+		/>	
+       </Link>	
+
+
+            </div>	
+    
 
 		<div>
           <h3 className="text-sm font-semibold mb-2 uppercase text-gray-100">Cursos</h3>
