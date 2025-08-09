@@ -176,10 +176,10 @@ export default function Home() {
 
 
 
-          <div className="  mx-auto mt-30 grid md:grid-cols-3   ">
+          <div className="  mx-auto mt-30 grid md:grid-cols-3 ml-[5%]  mr-[5%]  ">
 		  <div></div>
 		  <div className="flex col">
-		   <Link href="https://go.hotmart.com/T101220571S">
+		   <Link href="https://go.hotmart.com/V101060254T">
 		  
 		  	<Image className="flex justify-center relative rounded"
 				src='../../images/chef_marrara_bortoloti/LOGO-SEM-FUNDO.png'
@@ -194,7 +194,7 @@ export default function Home() {
  <div></div>		
           </div>
    
-			<div className=" max-w-6xl mx-auto mt-5">
+			<div className=" max-w-6xl mx-auto ml-[5%]  mr-[5%]">
 			Me chamo Marrara Bortoloti, tenho 33 anos, sou mãe, confeiteira e produtora dos Cursos Bolos de Sucesso e Escola de Bolo com mais de 50 mil alunas em todo o Brasil e no mundo!
 A Confeitaria é realmente surpreendente, sempre cheia de novidades e oportunidades... E se Você quer começar um negócio próprio ou simplesmente preparar Bolos Incríveis, diferenciados e especiais, estes cursos são perfeitos para você!
 		</div>			

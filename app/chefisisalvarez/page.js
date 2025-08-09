@@ -286,7 +286,7 @@ export default function Home() {
 
 
 
-          <div className="  mx-auto mt-30 grid md:grid-cols-3   ">
+          <div className="  mx-auto mt-30 grid md:grid-cols-3  ml-[5%]  mr-[5%]  ">
 		  <div></div>
 		  <div className="flex col">
 		   <Link href="https://go.hotmart.com/T101220571S">
@@ -304,7 +304,7 @@ export default function Home() {
  <div></div>		
           </div>
    
-			<div className=" max-w-6xl mx-auto mt-5">
+			<div className=" max-w-6xl mx-auto ml-[5%]  mr-[5%]">
 			
 			Olá! Eu sou a Ísis Alvarez, chef confeiteira apaixonada pela culinária desde que me conheço por gente. Muito prazer!
 
