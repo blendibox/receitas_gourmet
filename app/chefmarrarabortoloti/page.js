@@ -176,7 +176,7 @@ export default function Home() {
 
 
 
-          <div className="  mx-auto mt-30 grid md:grid-cols-3 ml-[5%]  mr-[5%]  ">
+          <div className="  mx-auto mt-30 grid md:grid-cols-3 ml-[5%]  mr-[5%] mb-5 ">
 		  <div></div>
 		  <div className="flex col">
 		   <Link href="https://go.hotmart.com/V101060254T">
