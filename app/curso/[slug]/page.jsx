@@ -4,7 +4,7 @@ import { lerProdutoPorSlug } from '../../../lib/awin';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import ProdutoAwin from '../../../components/produtoAwin';
+import ProdutoCurso from '../../../components/produtoCurso';
 
 const nomeArquivo = 'cursos';
 
@@ -59,11 +59,11 @@ export default async function ProdutoPage({ params }) {
   if (!produto) return notFound();
 
   return (
-	  <ProdutoAwin
+	  <ProdutoCurso
 		produto= {produto}
 		mybrand='curso'
 	  >
-	  </ProdutoAwin>
+	  </ProdutoCurso>
 	  
   );
 }

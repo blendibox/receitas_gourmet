@@ -19,7 +19,7 @@ export default function Home() {
   return (
 <>
 
-{/*video background*/}
+{/*video background
  <video
 				id="produtoVideo"
 				src='../../assets/chef-isis-alvarez/bolo_no_pote/bolo_no_pote.mp4'
@@ -31,10 +31,10 @@ export default function Home() {
 				className='absolute  w-auto min-w-full min-h-full max-w-none opacity-70 background-black contrast-110 saturation-110    '
 			  ></video> 
 
-
+*/}
 
     {/* Seção inicio */}
-    <div id="inicio" className=" opacity-90  mh-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-1 gap-4  bold  text-white py-16">
+    <div id="inicio" className="   mh-auto text-center  relative grid bg-purple-900 grid-flow-col grid-rows-1 gap-4  bold  text-white py-16">
 	
         <div className="flex mt-0  max-w-[80%] max-w-7xl mx-auto  grid md:grid-cols-1 gap-8 px-4  bg-p-900 	">
 			   

@@ -1,0 +1,992 @@
+{
+  "Eletrodomésticos - Micro-ondas - Micro-ondas de bancada": {
+    "slug": "eletrodomesticos-micro-ondas-micro-ondas-de-bancada",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores - Geladeira frost free": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores-geladeira-frost-free",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Coifas e Depuradores - Coifa": {
+    "slug": "eletrodomesticos-coifas-e-depuradores-coifa",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Coifas e Depuradores - Depurador": {
+    "slug": "eletrodomesticos-coifas-e-depuradores-depurador",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fornos - Forno de embutir": {
+    "slug": "eletrodomesticos-fornos-forno-de-embutir",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fogão - Fogão 4 bocas": {
+    "slug": "eletrodomesticos-fogao-fogao-4-bocas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fogão - Fogão mesa de vidro": {
+    "slug": "eletrodomesticos-fogao-fogao-mesa-de-vidro",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fogão - Fogão 5 bocas": {
+    "slug": "eletrodomesticos-fogao-fogao-5-bocas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Potes herméticos": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-potes-hermeticos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Micro-ondas": {
+    "slug": "eletrodomesticos-micro-ondas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Torre de cocção": {
+    "slug": "eletrodomesticos-torre-de-coccao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Cooktops - Cooktop a gás": {
+    "slug": "eletrodomesticos-cooktops-cooktop-a-gas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Máquina": {
+    "slug": "maquina",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Capsulas": {
+    "slug": "capsulas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Acessórios de cozinha": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-acessorios-de-cozinha",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó e água": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-e-agua",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Purificadores de água e Bebedouros - Purificador de água": {
+    "slug": "eletroportateis-purificadores-de-agua-e-bebedouros-purificador-de-agua",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Cooktops - Cooktop indução": {
+    "slug": "eletrodomesticos-cooktops-cooktop-inducao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Panela elétrica - Panela de arroz": {
+    "slug": "eletroportateis-panela-eletrica-panela-de-arroz",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Panela - Tampa de panela": {
+    "slug": "utilidades-domesticas-panela-tampa-de-panela",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó sem saco": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-sem-saco",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó com saco": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-com-saco",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Máquina de lavar - Máquina de lavar carga superior": {
+    "slug": "eletrodomesticos-maquina-de-lavar-maquina-de-lavar-carga-superior",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios para casa - Capa para máquina de lavar": {
+    "slug": "utilidades-domesticas-utensilios-para-casa-capa-para-maquina-de-lavar",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Purificadores de água e Bebedouros - Bebedouro": {
+    "slug": "eletroportateis-purificadores-de-agua-e-bebedouros-bebedouro",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Ferro de passar e Vaporizador - Ferro de passar": {
+    "slug": "eletroportateis-ferro-de-passar-e-vaporizador-ferro-de-passar",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios para casa - Produtos de limpeza": {
+    "slug": "utilidades-domesticas-utensilios-para-casa-produtos-de-limpeza",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó vertical": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-vertical",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios para casa - Utensílios para lavanderia": {
+    "slug": "utilidades-domesticas-utensilios-para-casa-utensilios-para-lavanderia",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Marmiteira Lunch Box": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-marmiteira-lunch-box",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Panela - Jogo de panelas": {
+    "slug": "utilidades-domesticas-panela-jogo-de-panelas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Máquina de lavar - Máquina de lavar carga frontal": {
+    "slug": "eletrodomesticos-maquina-de-lavar-maquina-de-lavar-carga-frontal",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Lava e seca - Lava e seca frontal": {
+    "slug": "eletrodomesticos-lava-e-seca-lava-e-seca-frontal",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Lava-louças - Lava-louças de embutir": {
+    "slug": "eletrodomesticos-lava-loucas-lava-loucas-de-embutir",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Micro-ondas - Micro-ondas de embutir": {
+    "slug": "eletrodomesticos-micro-ondas-micro-ondas-de-embutir",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Secadoras - Secadora de piso": {
+    "slug": "eletrodomesticos-secadoras-secadora-de-piso",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Kit vinho": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-kit-vinho",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Purificadores de água e Bebedouros - Purificador água gelada": {
+    "slug": "eletroportateis-purificadores-de-agua-e-bebedouros-purificador-agua-gelada",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Jogo de utensílios": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-jogo-de-utensilios",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Cafeteira": {
+    "slug": "eletroportateis-cafeteira",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Mixer": {
+    "slug": "eletroportateis-mixer",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Air Fryer": {
+    "slug": "eletroportateis-air-fryer",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Adega - Adega sem compressor": {
+    "slug": "eletrodomesticos-adega-adega-sem-compressor",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Torradeira": {
+    "slug": "eletroportateis-torradeira",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Chaleira elétrica": {
+    "slug": "eletroportateis-chaleira-eletrica",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Lava e seca - Lava e seca 11 Kg": {
+    "slug": "eletrodomesticos-lava-e-seca-lava-e-seca-11-kg",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó robô": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-robo",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Freezers - Freezer horizontal": {
+    "slug": "eletrodomesticos-freezers-freezer-horizontal",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Adega - Adega com compressor": {
+    "slug": "eletrodomesticos-adega-adega-com-compressor",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Liquidificador - Liquidificador copo de vidro": {
+    "slug": "eletroportateis-liquidificador-liquidificador-copo-de-vidro",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Batedeira": {
+    "slug": "eletroportateis-batedeira",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores - Geladeira 1 porta": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores-geladeira-1-porta",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis": {
+    "slug": "eletroportateis",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores - Geladeira 4 portas": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores-geladeira-4-portas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fogão": {
+    "slug": "eletrodomesticos-fogao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Cooktops": {
+    "slug": "eletrodomesticos-cooktops",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Acessórios para Airfryer": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-acessorios-para-airfryer",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Espremedor de laranjas": {
+    "slug": "eletroportateis-espremedor-de-laranjas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Ferro de passar e Vaporizador - Vaporizador": {
+    "slug": "eletroportateis-ferro-de-passar-e-vaporizador-vaporizador",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Liquidificador - Liquificador portátil": {
+    "slug": "eletroportateis-liquidificador-liquificador-portatil",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Panela elétrica - Panela de pressão": {
+    "slug": "eletroportateis-panela-eletrica-panela-de-pressao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios de cozinha - Utensílios de cozinha inox": {
+    "slug": "utilidades-domesticas-utensilios-de-cozinha-utensilios-de-cozinha-inox",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Freezers - Freezer 1 porta": {
+    "slug": "eletrodomesticos-freezers-freezer-1-porta",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Máquina de lavar": {
+    "slug": "eletrodomesticos-maquina-de-lavar",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Processador de alimentos": {
+    "slug": "eletroportateis-processador-de-alimentos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Sanduicheira": {
+    "slug": "eletroportateis-sanduicheira",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Fornos": {
+    "slug": "eletrodomesticos-fornos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Adega - Adega dual zone": {
+    "slug": "eletrodomesticos-adega-adega-dual-zone",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Freezers - Freezer vertical": {
+    "slug": "eletrodomesticos-freezers-freezer-vertical",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores - Geladeira side by side": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores-geladeira-side-by-side",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Frigobar": {
+    "slug": "eletrodomesticos-frigobar",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Ar condicionado": {
+    "slug": "eletrodomesticos-ar-condicionado",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Lavadoras de alta pressão": {
+    "slug": "eletroportateis-lavadoras-de-alta-pressao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Lava-louças": {
+    "slug": "eletrodomesticos-lava-loucas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Cervejeira": {
+    "slug": "eletrodomesticos-cervejeira",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó vertical sem fio": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-vertical-sem-fio",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Purificadores de água e Bebedouros": {
+    "slug": "eletroportateis-purificadores-de-agua-e-bebedouros",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Utilidades domésticas - Utensílios para casa - Organizadores": {
+    "slug": "utilidades-domesticas-utensilios-para-casa-organizadores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Ar condicionado - Ar condicionado portátil": {
+    "slug": "eletrodomesticos-ar-condicionado-ar-condicionado-portatil",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Aspirador de pó - Aspirador de pó vertical com fio": {
+    "slug": "eletroportateis-aspirador-de-po-aspirador-de-po-vertical-com-fio",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Lava-louças - Lava-louças de piso": {
+    "slug": "eletrodomesticos-lava-loucas-lava-loucas-de-piso",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletroportáteis - Ventilador": {
+    "slug": "eletroportateis-ventilador",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos - Geladeiras / Refrigeradores - Geladeira cycle defrost": {
+    "slug": "eletrodomesticos-geladeiras-refrigeradores-geladeira-cycle-defrost",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrodomésticos": {
+    "slug": "eletrodomesticos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças de Reposição": {
+    "slug": "pecas-de-reposicao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Corporativo - Rechauds": {
+    "slug": "corporativo-rechauds",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Cloches": {
+    "slug": "mesa-acessorios-cloches",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios para bebida - Champanheiras e Baldes para Gelo": {
+    "slug": "mesa-acessorios-para-bebida-champanheiras-e-baldes-para-gelo",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Panelas - Espagueteiras": {
+    "slug": "panelas-espagueteiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Aparelhos de Fondue": {
+    "slug": "mesa-aparelhos-de-fondue",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Taças e Copos": {
+    "slug": "mesa-tacas-e-copos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Corporativo - Garrafas Térmicas": {
+    "slug": "corporativo-garrafas-termicas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Garrafas e Bules Termicos": {
+    "slug": "mesa-garrafas-e-bules-termicos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Mantegueiras": {
+    "slug": "mesa-acessorios-mantegueiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Farinheiras": {
+    "slug": "mesa-acessorios-farinheiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Porta Frios": {
+    "slug": "mesa-acessorios-porta-frios",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Porta Pão": {
+    "slug": "mesa-acessorios-porta-pao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Bandejas": {
+    "slug": "mesa-bandejas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Assadeiras": {
+    "slug": "cozinha-assadeiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Kits para servir": {
+    "slug": "mesa-kits-para-servir",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Queijeiras": {
+    "slug": "mesa-acessorios-queijeiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Galheteiros": {
+    "slug": "mesa-acessorios-galheteiros",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Saleiros e Pimenteiros": {
+    "slug": "mesa-acessorios-saleiros-e-pimenteiros",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Porta Guardanapos": {
+    "slug": "mesa-acessorios-porta-guardanapos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Porta Sachês": {
+    "slug": "mesa-acessorios-porta-saches",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Paliteiros": {
+    "slug": "mesa-acessorios-paliteiros",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Moedores": {
+    "slug": "cozinha-moedores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Porta Condimentos": {
+    "slug": "mesa-acessorios-porta-condimentos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Infantil": {
+    "slug": "mesa-infantil",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios - Açucareiros": {
+    "slug": "mesa-acessorios-acucareiros",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Colheres para Arroz": {
+    "slug": "cozinha-utensilios-colheres-para-arroz",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Conchas": {
+    "slug": "cozinha-utensilios-conchas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Espumadeiras": {
+    "slug": "cozinha-utensilios-espumadeiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Facas - Garfos Trinchantes": {
+    "slug": "facas-garfos-trinchantes",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Espatulas": {
+    "slug": "cozinha-utensilios-espatulas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Pás para Torta": {
+    "slug": "cozinha-utensilios-pas-para-torta",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios para bebida - Suporte para Balde de Gelo": {
+    "slug": "mesa-acessorios-para-bebida-suporte-para-balde-de-gelo",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Jarras": {
+    "slug": "mesa-jarras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Pegadores": {
+    "slug": "cozinha-utensilios-pegadores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Colheres para Coquetel e Refresco": {
+    "slug": "cozinha-utensilios-colheres-para-coquetel-e-refresco",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Pinças": {
+    "slug": "cozinha-utensilios-pincas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Dosadores": {
+    "slug": "cozinha-utensilios-dosadores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Acessórios para bebida - Porta Copos": {
+    "slug": "mesa-acessorios-para-bebida-porta-copos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Travessas e Pratos": {
+    "slug": "mesa-travessas-e-pratos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Corporativo - Bandejas": {
+    "slug": "corporativo-bandejas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Corporativo - Acessórios": {
+    "slug": "corporativo-acessorios",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha - Utensílios - Abridores": {
+    "slug": "cozinha-utensilios-abridores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Mesa - Cumbucas e Bowls": {
+    "slug": "mesa-cumbucas-e-bowls",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Monitores": {
+    "slug": "monitores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Eletrônicos": {
+    "slug": "eletronicos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Televisões": {
+    "slug": "televisoes",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Ar-Condicionado Residencial": {
+    "slug": "ar-condicionado-residencial",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Geladeiras": {
+    "slug": "geladeiras",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Projetores": {
+    "slug": "projetores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Lavadoras de Roupa": {
+    "slug": "lavadoras-de-roupa",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Micro-ondas": {
+    "slug": "micro-ondas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Styler": {
+    "slug": "styler",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cuidados Pessoais": {
+    "slug": "cuidados-pessoais",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Cozinha": {
+    "slug": "cozinha",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Lavanderia": {
+    "slug": "lavanderia",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Arno": {
+    "slug": "arno",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Acessórios para Eletrodomésticos": {
+    "slug": "acessorios-para-eletrodomesticos",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios de Ar-Condicionado": {
+    "slug": "pecas-e-acessorios-de-ar-condicionado",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Lavadoras de Roupa": {
+    "slug": "pecas-e-acessorios-para-lavadoras-de-roupa",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Computadores": {
+    "slug": "computadores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "TVs Telas Lifestyle": {
+    "slug": "tvs-telas-lifestyle",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "TVs e Soundbars": {
+    "slug": "tvs-e-soundbars",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Lousa Digital": {
+    "slug": "lousa-digital",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Videoconferência Interativa": {
+    "slug": "videoconferencia-interativa",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Assinatura Digital": {
+    "slug": "assinatura-digital",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para TV / Áudio": {
+    "slug": "pecas-e-acessorios-para-tv-audio",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios de Informática": {
+    "slug": "pecas-e-acessorios-de-informatica",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Televisão": {
+    "slug": "pecas-e-acessorios-para-televisao",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Ar Condicionado": {
+    "slug": "pecas-e-acessorios-para-ar-condicionado",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Refrigeradores": {
+    "slug": "pecas-e-acessorios-para-refrigeradores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Áudio": {
+    "slug": "pecas-e-acessorios-para-audio",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Ar-condicionado": {
+    "slug": "ar-condicionado",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "TVs": {
+    "slug": "tvs",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Purificador de Ar": {
+    "slug": "purificador-de-ar",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Ar-Condicionado Comercial Leve": {
+    "slug": "ar-condicionado-comercial-leve",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Áudio": {
+    "slug": "audio",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Forno Micro-ondas": {
+    "slug": "pecas-e-acessorios-para-forno-micro-ondas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Peças e Acessórios para Monitores": {
+    "slug": "pecas-e-acessorios-para-monitores",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  },
+  "Micro-Ondas": {
+    "slug": "micro-ondas",
+    "arquivos": [
+      "ELETRO.json"
+    ]
+  }
+}

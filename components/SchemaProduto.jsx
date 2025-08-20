@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SchemaProduto({ title, image, link, brand, priceGoogle }) {
 	
-	const description = `Procurando onde comprar ${title}? Acesse, Compare Ofertas, encontre Cupons para ${title} de forma dinâmica. Milhares de Ofertas e Cupons de desconto de grandes Marcas.`;
+	const description = `Procurando onde comprar ${title}? Acesse, e receba a melhor oferta!`;
 	
   const schema = [
     {
@@ -22,7 +22,7 @@ export default function SchemaProduto({ title, image, link, brand, priceGoogle }
         "name": "Blendibox",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://comprar.blendibox.com.br/favicon.ico",
+          "url": "https://modakids.blendibox.com.br/favicon.ico",
           "width": 40,
           "height": 40,
         },
@@ -50,7 +50,7 @@ export default function SchemaProduto({ title, image, link, brand, priceGoogle }
         url: link,
         priceCurrency: "BRL",
         price: priceGoogle,
-        priceValidUntil: "2023-12-12",
+        priceValidUntil: "2026-12-12",
         itemCondition: "https://schema.org/NewCondition",
         availability: "https://schema.org/InStock",
       },
